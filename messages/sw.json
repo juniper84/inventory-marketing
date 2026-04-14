@@ -1,0 +1,742 @@
+{
+  "metadata": {
+    "title": "New Vision Inventory — Stok, POS & Ripoti kwa biashara za Tanzania",
+    "description": "Stok kwa akili, POS haraka, na ripoti zenye nguvu zilizojengwa kwa biashara zinazokua Tanzania. Inafanya kazi offline. Matawi mengi. Audit logs."
+  },
+  "nav": {
+    "features": "Vipengele",
+    "pricing": "Bei",
+    "about": "Kuhusu",
+    "contact": "Wasiliana",
+    "signIn": "Ingia"
+  },
+  "common": {
+    "learnMore": "Soma zaidi",
+    "startFreeTrial": "Anza majaribio bure",
+    "buyOnWhatsApp": "Nunua kwa WhatsApp",
+    "talkToUs": "Wasiliana nasi",
+    "backHome": "Rudi nyumbani",
+    "relatedFeatures": "Vipengele vinavyohusiana",
+    "whatYouGet": "Unachopata",
+    "howItWorks": "Jinsi inavyofanya kazi",
+    "theProblem": "Tatizo",
+    "theSolution": "Mbinu yetu"
+  },
+  "langToggle": {
+    "english": "Kiingereza",
+    "swahili": "Kiswahili",
+    "switchToSwahili": "Badili kuwa Kiswahili",
+    "switchToEnglish": "Badili kuwa Kiingereza"
+  },
+  "hero": {
+    "eyebrow": "Imejengwa kwa biashara za Tanzania",
+    "headline": "Jua stok zako. Uza haraka. Kua kwa ujasiri.",
+    "subhead": "New Vision Inventory inaunganisha stok, POS, manunuzi, na ripoti katika mfumo mmoja ulio wazi — rahisi kuanza, wenye nguvu kadri unavyokua.",
+    "ctaTrial": "Anza majaribio bure",
+    "ctaWhatsapp": "Nunua kwa WhatsApp",
+    "ctaQuestion": "Uliza swali",
+    "stats": {
+      "allInOne": {
+        "value": "3 kwa 1",
+        "label": "Stok + POS + Ripoti"
+      },
+      "offline": {
+        "value": "Offline tayari",
+        "label": "Uza bila mtandao"
+      },
+      "secure": {
+        "value": "Salama",
+        "label": "Ruhusa + audit logs"
+      }
+    },
+    "status": {
+      "uptime": "Ufuatiliaji wa mfumo moja kwa moja",
+      "offline": "Offline tayari",
+      "audit": "Kila hatua ina audit log"
+    }
+  },
+  "heroPanel": {
+    "title": "Mwendo wa stok moja kwa moja",
+    "metrics": {
+      "lowStock": {
+        "label": "Tahadhari za stok ndogo",
+        "value": "Mara moja"
+      },
+      "dailySales": {
+        "label": "Muhtasari wa mauzo ya siku",
+        "value": "Tayari"
+      },
+      "branch": {
+        "label": "Utendaji wa matawi",
+        "value": "Wazi"
+      }
+    },
+    "note": "Fuatilia stok, mauzo, na manunuzi katika dashibodi tulivu."
+  },
+  "pulseGrid": {
+    "title": "Stok moja kwa moja",
+    "caption": "Kila kisanduku ni bidhaa. Dhahabu ina maana inasonga. Nyekundu ina maana tahadhari."
+  },
+  "highlights": {
+    "eyebrow": "Imejengwa kwa jinsi unavyofanya kazi",
+    "title": "Maelezo madogo. Tofauti kubwa.",
+    "items": {
+      "scan": {
+        "title": "Skani kwa kamera ya simu",
+        "body": "Hakuna kifaa cha ziada. Tumia kamera ya simu au kibao kuskani barcode wakati wa checkout au kupokea stok."
+      },
+      "batch": {
+        "title": "Ufuatiliaji wa batch & expiry",
+        "body": "Imejengwa kwa famasia na maduka ya vyakula. Fuatilia kila batch, ona kinachomalizika hivi karibuni, epuka hasara."
+      },
+      "credit": {
+        "title": "Mauzo ya mkopo, yanadhibitiwa vizuri",
+        "body": "Ruhusu wateja walipe baadaye. Mfumo unafuatilia nani anadaiwa, tarehe za kulipa, na malipo ya sehemu — hakuna anayesahau."
+      },
+      "print": {
+        "title": "Chapisha barcode zako mwenyewe",
+        "body": "Unauza bidhaa zisizo na lebo au za jumla? Tengeneza na uchapishe lebo za barcode kwa kitu chochote."
+      },
+      "swahili": {
+        "title": "Kiswahili kwanza, kila mahali",
+        "body": "Sio tu ukurasa wa nyumbani. Kila skrini wafanyakazi wako wanayoiona inafanya kazi kwa Kiswahili au Kiingereza — badilisha kwa kila mtumiaji."
+      }
+    }
+  },
+  "showcase": {
+    "dashboard": {
+      "eyebrow": "Dashibodi",
+      "title": "Ona biashara yako yote kwa mtazamo mmoja",
+      "body": "Mauzo ya leo, tahadhari za stok ndogo, bidhaa zinazouzwa zaidi — yote katika mtazamo mmoja tulivu. Hakuna kutafuta kwenye menyu."
+    },
+    "reports": {
+      "eyebrow": "Ripoti",
+      "title": "Jua hasa kinachofanya kazi",
+      "body": "Faida halisi, gross margin, mwenendo wa mauzo, P&L — tayari wakati wowote. Hakuna spreadsheet. Hakuna kubahatisha."
+    },
+    "pos": {
+      "eyebrow": "Point of Sale",
+      "title": "Uza haraka, kutoka kifaa chochote",
+      "body": "Kamilisha mauzo kwa sekunde. Skani barcode, chagua mteja, pokea pesa taslimu au mobile money. Mfumo uleule kwenye kompyuta, kibao, na simu.",
+      "desktopAlt": "Skrini ya POS ikionyesha bidhaa kwenye gari na njia za malipo",
+      "mobileAlt": "Mwonekano wa POS kwenye simu — gari na malipo",
+      "tabletAlt": "Mwonekano wa POS kwenye kibao — gridi ya bidhaa na gari"
+    },
+    "dashboardAlt": "Dashibodi ya New Vision Inventory ikionyesha mauzo ya leo, tahadhari za stok, na bidhaa zinazouzwa zaidi",
+    "reportsAlt": "Ripoti zikionyesha faida halisi, P&L kwa siku, na mwenendo wa mauzo"
+  },
+  "features": {
+    "title": "Kila unachohitaji bila kuchanganyikiwa",
+    "subtitle": "Anza na muhimu. Fungua nguvu zaidi kadri unavyokua.",
+    "items": {
+      "stock": {
+        "title": "Udhibiti wa stok kwa akili",
+        "body": "Marekebisho, hesabu, na tahadhari za low-stock."
+      },
+      "pos": {
+        "title": "POS ya haraka",
+        "body": "Drafti, risiti, marejesho vyote kwa mtiririko mmoja."
+      },
+      "purchases": {
+        "title": "Manunuzi + kupokea",
+        "body": "Dhibiti wasambazaji, PO, na kupokea kwa uhakika."
+      },
+      "reports": {
+        "title": "Ripoti zenye nguvu",
+        "body": "Mauzo, VAT, P&L, wafanyakazi, na wateja."
+      },
+      "offline": {
+        "title": "Hali ya offline",
+        "body": "Uza hata mtandao ukiyumba. Sync ukirudi online."
+      },
+      "secure": {
+        "title": "Salama & inayowajibika",
+        "body": "Ruhusa za majukumu na audit log kwa kila hatua muhimu."
+      }
+    }
+  },
+  "emphasis": {
+    "title": "Imeundwa kwa timu zenye shughuli nyingi",
+    "body": "Iwe una duka, famasia, au mtandao wa matawi unaokua, taarifa zako zinabaki zikiwa zimepangwa kwa matawi na watumiaji. Unajua stok, mauzo, na yanayohitaji hatua.",
+    "list": {
+      "branches": "Uangalizi na udhibiti kwa kila tawi",
+      "barcodes": "Barcode lookup na uchapishaji",
+      "customers": "Ufuatiliaji wa wateja na wasambazaji",
+      "exports": "Exports kwa ukaguzi na ufuatiliaji"
+    }
+  },
+  "pricing": {
+    "title": "Bei rahisi",
+    "subtitle": "Chagua mpango unaofaa ukubwa wako. Pandisha wakati wowote.",
+    "badge": "Unaopendwa",
+    "billingMonthly": "Kwa mwezi",
+    "billingAnnual": "Kwa mwaka",
+    "annualSaveNote": "Lipa kwa mwaka upate miezi 2 bure",
+    "seePricing": "Ona bei zote",
+    "perMonth": "/mwezi",
+    "perYear": "/mwaka",
+    "saveAnnual": "Okoa miezi 2",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "priceMonthly": "40,000 TZS",
+        "priceAnnual": "400,000 TZS",
+        "bullets": {
+          "branches": "Tawi 1, watumiaji 5",
+          "products": "Bidhaa 5,000",
+          "transactions": "Miamala 15,000 kwa mwezi",
+          "core": "Stok + POS + ripoti"
+        },
+        "cta": "Nunua kwa WhatsApp",
+        "ctaMessageMonthly": "Habari, ningependa kununua mpango wa STARTER (kwa mwezi).",
+        "ctaMessageAnnual": "Habari, ningependa kununua mpango wa STARTER (kwa mwaka)."
+      },
+      "business": {
+        "name": "Business",
+        "priceMonthly": "75,000 TZS",
+        "priceAnnual": "750,000 TZS",
+        "bullets": {
+          "branches": "Hadi matawi 5, watumiaji 15",
+          "products": "Bidhaa 30,000",
+          "transactions": "Miamala 40,000 kwa mwezi",
+          "offline": "Offline + vikumbusho"
+        },
+        "cta": "Nunua kwa WhatsApp",
+        "ctaMessageMonthly": "Habari, ningependa kununua mpango wa BUSINESS (kwa mwezi).",
+        "ctaMessageAnnual": "Habari, ningependa kununua mpango wa BUSINESS (kwa mwaka)."
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "priceMonthly": "150,000 TZS",
+        "priceAnnual": "1,500,000 TZS",
+        "bullets": {
+          "scale": "Kiwango kisicho na kikomo",
+          "offline": "Offline kamili + vifaa bila kikomo",
+          "controls": "Udhibiti wa juu + msaada wa kipaumbele",
+          "guidance": "Mwongozo maalum kwa timu kubwa"
+        },
+        "cta": "Nunua kwa WhatsApp",
+        "ctaMessageMonthly": "Habari, ningependa kununua mpango wa ENTERPRISE (kwa mwezi).",
+        "ctaMessageAnnual": "Habari, ningependa kununua mpango wa ENTERPRISE (kwa mwaka)."
+      }
+    }
+  },
+  "cta": {
+    "title": "Tayari kuona mfumo ukifanya kazi?",
+    "body": "Anza majaribio kwa dakika chache bila maandalizi ya kiufundi.",
+    "button": "Anza majaribio bure"
+  },
+  "contact": {
+    "title": "Wasiliana nasi",
+    "subtitle": "Maswali, demo, au msaada wa kuanza — tupo hapa.",
+    "whatsapp": "WhatsApp",
+    "call": "Piga simu",
+    "email": "Barua pepe"
+  },
+  "footer": {
+    "copyright": "© 2026 New Vision Inventory",
+    "tagline": "Imeundwa kwa uendeshaji wa kisasa wa biashara",
+    "blurb": "Stok, POS, na ripoti katika mfumo mmoja. Imejengwa kwa biashara za Tanzania. Inafanya kazi mtandaoni na bila mtandao.",
+    "productHeading": "Bidhaa",
+    "companyHeading": "Kampuni",
+    "legalHeading": "Kisheria",
+    "privacy": "Faragha",
+    "terms": "Masharti"
+  },
+  "featuresPage": {
+    "metadata": {
+      "title": "Vipengele — New Vision Inventory",
+      "description": "Zana zote ambazo biashara inayokua Tanzania inahitaji — udhibiti wa stok, POS, offline, ripoti, matawi mengi, na usalama."
+    },
+    "hero": {
+      "eyebrow": "Vipengele",
+      "title": "Imejengwa kwa jinsi biashara yako inavyofanya kazi.",
+      "subtitle": "Sio mfumo mwingine uliopakia sana. Mfumo wazi, tulivu unaoshughulikia kila sehemu muhimu ya kuendesha duka bila kuwachanganya wafanyakazi wako."
+    },
+    "stock": {
+      "shortTitle": "Stok & ledger",
+      "title": "Udhibiti wa stok wenye akili na ledger kamili ya ukaguzi",
+      "pitch": "Kila mwendo umerekodiwa. Kila rafu imejazwa. Jua una nini, kiko wapi, na kimefikaje hapo."
+    },
+    "pos": {
+      "shortTitle": "Point of Sale",
+      "title": "POS ya haraka isiyopunguza kasi ya mstari wako",
+      "pitch": "Skani, ongeza, pokea malipo, chapisha risiti. Chini ya sekunde 10 kwa kila mauzo kwenye kifaa chochote."
+    },
+    "offline": {
+      "shortTitle": "Offline",
+      "title": "Endelea kuuza wakati mtandao haupo",
+      "pitch": "Umeme umekata? Mtandao umekata? Endelea kuuza. Ukirudi mtandaoni, kila kitu kinasync kiotomatiki."
+    },
+    "reports": {
+      "shortTitle": "Ripoti",
+      "title": "Ripoti wazi, tayari unapotaka",
+      "pitch": "Mauzo, VAT, P&L, utendaji wa wafanyakazi, taarifa za wateja. Bonyeza mara moja. Hakuna spreadsheet."
+    },
+    "branches": {
+      "shortTitle": "Matawi mengi",
+      "title": "Mfumo mmoja. Kila tawi. Mtazamo mmoja.",
+      "pitch": "Matawi mengi, ingia mara moja. Hamisha stok kati ya matawi, linganisha utendaji wao, dhibiti vizuri."
+    },
+    "security": {
+      "shortTitle": "Usalama & ukaguzi",
+      "title": "Uwajibikaji kwa chaguo-msingi",
+      "pitch": "Ruhusa kwa kila jukumu. Kila hatua muhimu imerekodiwa ikiwa na nani, nini, lini, na kabla/baada."
+    },
+    "cta": {
+      "title": "Ona kila kipengele kwa ukaribu",
+      "body": "Anza majaribio bure na chunguza mfumo na bidhaa zako mwenyewe.",
+      "button": "Anza majaribio bure"
+    }
+  },
+  "featureDeepDive": {
+    "threeSteps": "Hatua tatu rahisi.",
+    "everythingIncluded": "Kila kitu kimejumuishwa."
+  },
+  "featurePage": {
+    "stockLedger": {
+      "metadata": {
+        "title": "Ledger ya stok & udhibiti — New Vision Inventory",
+        "description": "Stok kulingana na ledger na njia ya ukaguzi isiyobadilika. Tahadhari za stok ndogo, reorder points, hesabu, na ufuatiliaji wa tofauti."
+      },
+      "hero": {
+        "eyebrow": "Stok & ledger",
+        "title": "Kila mwendo umerekodiwa. Kila rafu imejazwa.",
+        "subtitle": "Mfumo wa stok wa ledger-kwanza. Hakuna kinachofutwa kimya. Kila manunuzi, mauzo, marekebisho, na uhamisho vinaacha alama unayoweza kuamini."
+      },
+      "problem": {
+        "title": "Tatizo la mifumo mingi ya stok",
+        "body": "Mifumo mingi inakupa namba na kutumaini utaiamini. Inapokuwa si sahihi — na itakuwa si sahihi — huna njia ya kujua kwa nini. Wafanyakazi wanabadilisha. Namba zinapotea. Imani inakufa."
+      },
+      "solution": {
+        "title": "Jinsi ledger yetu inavyofanya kazi",
+        "body": "Kila mabadiliko ya stok ni kiingilio kipya, kisichobadilika kwenye ledger. Huhariri historia; unaongeza. Ikiwa hesabu inaonekana si sahihi, unaweza kutembea nyuma kupitia kila mwendo na kuona hasa kilichotokea."
+      },
+      "steps": {
+        "one": {
+          "title": "Rekodi kila mwendo",
+          "body": "Manunuzi, mauzo, marekebisho, uhamisho, marejesho — kila mabadiliko yanarekodiwa na nani ameyafanya na kwa nini."
+        },
+        "two": {
+          "title": "Ona stok moja kwa moja popote",
+          "body": "Muhtasari wa muda halisi kwa kila tawi kwa kila bidhaa. Chunguza bidhaa yoyote kuona historia yake kamili."
+        },
+        "three": {
+          "title": "Kaa mbele na tahadhari",
+          "body": "Weka reorder points. Pata tahadhari wakati stok inapoteremka chini ya kiwango cha chini — kabla mteja hajauliza."
+        }
+      },
+      "benefits": {
+        "one": "Ledger ya mwendo isiyobadilika",
+        "two": "Tahadhari za stok ndogo na reorder points kwa tawi",
+        "three": "Hesabu za stok zilizopangwa na ripoti za tofauti",
+        "four": "Skani na uchapishaji wa barcode",
+        "five": "Ufuatiliaji wa batch na tarehe ya kumalizika",
+        "six": "Uonyesho wa stok kwa ngazi ya tawi"
+      }
+    },
+    "pos": {
+      "metadata": {
+        "title": "Point of Sale — New Vision Inventory",
+        "description": "POS inayokaa mbali na njia yako. Checkout haraka, drafti, marejesho, risiti — kwenye kompyuta, kibao, na simu."
+      },
+      "hero": {
+        "eyebrow": "Point of Sale",
+        "title": "Checkout iliyojengwa kukaa mbali na njia.",
+        "subtitle": "POS haraka, safi inayoshughulikia mauzo, marejesho, drafti, na risiti bila kupunguza kasi ya foleni yako. Inafanya kazi kwa njia sawa kwenye kompyuta, kibao, na simu."
+      },
+      "problem": {
+        "title": "POS polepole = mauzo yaliyopotea",
+        "body": "Checkout yako ikichukua muda mrefu kuliko cafe karibu, wateja wataona. Kila tap ya ziada, kila menyu iliyofichwa, kila kashia aliyechanganyika inakugharimu mauzo halisi."
+      },
+      "solution": {
+        "title": "Imeundwa kwa kasi",
+        "body": "Njia fupi za kibodi, skani ya barcode, utafutaji wa mteja mara moja, malipo yaliyogawanywa, drafti za haraka. Imejengwa kusonga haraka kama kashia mwenye shughuli siku ya Jumamosi."
+      },
+      "steps": {
+        "one": {
+          "title": "Skani au tafuta",
+          "body": "Skani barcode au andika herufi za kwanza za jina la bidhaa. Ongeza kwenye gari kwa tap moja."
+        },
+        "two": {
+          "title": "Pokea malipo",
+          "body": "Pesa taslimu, mobile money, kadi, uhamisho wa benki, au gawa. Inahesabu chenji kiotomatiki."
+        },
+        "three": {
+          "title": "Chapisha risiti",
+          "body": "Chapisha, WhatsApp, au ruka. Risiti imehifadhiwa kiotomatiki kwa ajili ya mauzo kwa rejea ya baadaye."
+        }
+      },
+      "benefits": {
+        "one": "Skani ya barcode na njia fupi za kibodi",
+        "two": "Pesa taslimu, mobile money, kadi, uhamisho wa benki, gawa",
+        "three": "Weka na endelea na drafti",
+        "four": "Marejesho na returns na ufuatiliaji wa sababu",
+        "five": "Utafutaji wa mteja na mauzo ya mkopo",
+        "six": "Fungua/funga shift na tofauti ya pesa"
+      }
+    },
+    "offline": {
+      "metadata": {
+        "title": "Offline — New Vision Inventory",
+        "description": "Endelea kuuza bila mtandao. Mauzo yanapangwa ndani na kusync kiotomatiki mtandao ukirudi."
+      },
+      "hero": {
+        "eyebrow": "Offline",
+        "title": "Mtandao umekata. Mauzo yanaendelea.",
+        "subtitle": "Kukatika kwa umeme, matatizo ya ISP, signal iliyokufa kwenye chumba cha nyuma — hakuna kitu kinachoacha biashara yako. POS inaendelea kufanya kazi. Sync inafanyika mara tu muunganisho unaporudi."
+      },
+      "problem": {
+        "title": "Muunganisho hauhakikishwi",
+        "body": "Mtandao wa Tanzania unaboresha lakini bado si wa kuaminika. Saa moja bila signal haipaswi kumaanisha saa moja ya mauzo yaliyopotea na wateja wanaokasirika. Lakini kwenye mifumo mingi ya POS ya wingu, hivyo ndivyo inamaanisha."
+      },
+      "solution": {
+        "title": "Imejengwa local-first",
+        "body": "Mauzo yanahifadhiwa kwanza kwenye kifaa, kisha kwenye seva. Ikiwa seva haipatikani, hakuna kitu kinachoharibika. Unaporudi, foleni inasync kiotomatiki — hakuna vitufe vya kubonyeza."
+      },
+      "steps": {
+        "one": {
+          "title": "Poteza muunganisho",
+          "body": "Mfumo unagundua offline. Banner tulivu linaonekana. POS inaendelea kufanya kazi sawa kabisa."
+        },
+        "two": {
+          "title": "Endelea kuuza",
+          "body": "Kila mauzo yanahifadhiwa kwenye kifaa na kupangwa kwa sync. Hesabu za stok zinasasishwa ndani."
+        },
+        "three": {
+          "title": "Rudi mtandaoni",
+          "body": "Foleni inasync kiotomatiki nyuma. Unaona uthibitisho wakati kila kitu kimepita."
+        }
+      },
+      "benefits": {
+        "one": "Mauzo yanapangwa salama kwenye kifaa",
+        "two": "Sync ya kiotomatiki mtandao ukirudi",
+        "three": "Historia ya offline kwa kila kifaa",
+        "four": "Hifadhi ya offline iliyosimbwa",
+        "five": "Mapitio ya migongano ikiwa vifaa viwili vimehariri rekodi moja",
+        "six": "Inapatikana kwenye mipango ya Business na Enterprise"
+      }
+    },
+    "reports": {
+      "metadata": {
+        "title": "Ripoti — New Vision Inventory",
+        "description": "Mauzo, VAT, P&L, wafanyakazi, na taarifa za wateja. Tayari unapotaka. Hakuna spreadsheet."
+      },
+      "hero": {
+        "eyebrow": "Ripoti",
+        "title": "Majibu tayari yapo.",
+        "subtitle": "Jumla ya mauzo, VAT inayofuatiliwa kwa kila mauzo, faida & hasara, utendaji wa wafanyakazi, taarifa za wateja. Zote zimejengwa mapema, zote bonyeza mara moja."
+      },
+      "problem": {
+        "title": "Kubashiri ni ghali",
+        "body": "Biashara nyingi zinaendeshwa kwa hisia. Wanahisi mwezi huu ulikuwa polepole, au bidhaa hii inafanya vizuri. Bila namba za kweli, maamuzi yanafanywa kwa hisia — na hisia zinakosea takribani 40% ya muda."
+      },
+      "solution": {
+        "title": "Kila jibu, limejengwa mapema",
+        "body": "Badala ya kukupa spreadsheet tupu na kutumaini, tunakupa ripoti muhimu: leo dhidi ya jana, mwezi huu dhidi ya uliopita, bidhaa bora, wateja bora, gharama dhidi ya mapato, utendaji wa wafanyakazi, na jumla ya VAT kutoka mauzo yako ili mwisho wa mwaka usishtuke."
+      },
+      "steps": {
+        "one": {
+          "title": "Chagua kipindi cha tarehe",
+          "body": "Leo, jana, wiki, mwezi, au maalum. Ripoti zote zinaheshimu timezone na sarafu yako."
+        },
+        "two": {
+          "title": "Chuja kwa tawi au mfanyakazi",
+          "body": "Chunguza tawi moja au linganisha. Ona jinsi kashia binafsi wanavyofanya."
+        },
+        "three": {
+          "title": "Safirisha unapohitaji",
+          "body": "CSV, Excel, PDF. Kwa wahasibu, ukaguzi, au rekodi zako mwenyewe."
+        }
+      },
+      "benefits": {
+        "one": "Mauzo kwa siku, wiki, mwezi, au kipindi maalum",
+        "two": "Mchanganuo wa faida & hasara",
+        "three": "Bidhaa bora na wateja bora",
+        "four": "Utendaji wa wafanyakazi na ripoti za shift",
+        "five": "VAT inafuatiliwa kwa kila mauzo kwa jumla rahisi ya mwaka",
+        "six": "Ripoti za kulinganisha matawi"
+      }
+    },
+    "multiBranch": {
+      "metadata": {
+        "title": "Matawi mengi — New Vision Inventory",
+        "description": "Endesha matawi mengi kutoka mfumo mmoja. Hamisha stok, linganisha matawi, dhibiti vizuri."
+      },
+      "hero": {
+        "eyebrow": "Matawi mengi",
+        "title": "Mfumo mmoja. Kila tawi. Mtazamo mmoja.",
+        "subtitle": "Iwe una maduka mawili au ishirini, kila kitu kinaishi sehemu moja. Hamisha stok kati ya matawi, ona jinsi kila moja inavyofanya, weka wasimamizi wa matawi wanawajibika."
+      },
+      "problem": {
+        "title": "Kuendesha matawi tofauti ni machafuko",
+        "body": "Mifumo tofauti kwa kila mahali inamaanisha spreadsheets tofauti, zinazolinganishwa kwa mkono mwisho wa mwezi. Hesabu za stok hazikubaliani. Bei zinabadilika. Wewe ndiye pekee anayejua kinachoendelea."
+      },
+      "solution": {
+        "title": "Chanzo kimoja cha ukweli",
+        "body": "Matawi yote, hifadhidata moja, kuingia mara moja. Unaona kila kitu. Kila msimamizi wa tawi anaona tawi lake tu. Hamisha stok kwa mbofyo. Linganisha utendaji kwa mbofyo. Matatizo yanaonekana mapema."
+      },
+      "steps": {
+        "one": {
+          "title": "Weka kila tawi",
+          "body": "Matawi yanashiriki katalogi na bei yako, lakini yana hesabu zao za stok na mauzo."
+        },
+        "two": {
+          "title": "Hamisha stok kwa urahisi",
+          "body": "Hamisha bidhaa kutoka tawi moja hadi jingine na hatua ya kupokea na alama kamili ya ukaguzi."
+        },
+        "three": {
+          "title": "Linganisha utendaji",
+          "body": "Ripoti za matawi upande kwa upande. Pata mahali panahitaji umakini kabla ya mwisho wa mwezi."
+        }
+      },
+      "benefits": {
+        "one": "Katalogi na bei zinazoshirikiwa kati ya matawi",
+        "two": "Stok na mauzo tofauti kwa kila tawi",
+        "three": "Uhamisho wa stok na ukaguzi kamili",
+        "four": "Ruhusa za watumiaji kwa kila tawi",
+        "five": "Ripoti za kulinganisha matawi",
+        "six": "Dashibodi iliyounganishwa kwa mmiliki"
+      }
+    }
+  },
+  "pricingPage": {
+    "metadata": {
+      "title": "Bei — New Vision Inventory",
+      "description": "Bei rahisi za kila mwezi au za mwaka. Lipa kwa mwaka upate miezi 2 bure. Mipango mitatu kulingana na ukubwa."
+    },
+    "hero": {
+      "eyebrow": "Bei",
+      "title": "Bei rahisi. Lipa kwa mwezi, au okoa miezi 2 kwa mwaka.",
+      "subtitle": "Mipango mitatu. Mipaka wazi. Pandisha wakati wowote. Hakuna mikataba, hakuna ada zilizofichwa, hakuna mshangao kwa mtumiaji."
+    },
+    "comparison": {
+      "title": "Linganisha mipango upande kwa upande",
+      "subtitle": "Kila kitu kilichojumuishwa kwenye kila mpango.",
+      "rows": {
+        "branches": "Matawi",
+        "users": "Watumiaji",
+        "products": "Bidhaa",
+        "transactions": "Miamala kwa mwezi",
+        "pos": "Point of Sale",
+        "stock": "Ledger ya stok + tahadhari",
+        "reports": "Ripoti",
+        "offline": "Offline",
+        "multiBranchTransfers": "Uhamisho wa stok kati ya matawi",
+        "audit": "Audit logs",
+        "roles": "Ruhusa za majukumu",
+        "support": "Msaada"
+      },
+      "values": {
+        "starterBranches": "1",
+        "businessBranches": "Hadi 5",
+        "enterpriseBranches": "Bila kikomo",
+        "starterUsers": "5",
+        "businessUsers": "15",
+        "enterpriseUsers": "Bila kikomo",
+        "starterProducts": "5,000",
+        "businessProducts": "30,000",
+        "enterpriseProducts": "Bila kikomo",
+        "starterTx": "15,000",
+        "businessTx": "40,000",
+        "enterpriseTx": "Bila kikomo",
+        "supportStandard": "Barua pepe",
+        "supportBusiness": "Barua pepe + chat",
+        "supportEnterprise": "Kipaumbele"
+      }
+    },
+    "faq": {
+      "title": "Maswali yaulizwayo mara kwa mara",
+      "items": {
+        "change": {
+          "question": "Naweza kubadilisha mpango baadaye?",
+          "answer": "Ndio. Unaweza kupandisha au kushusha wakati wowote kutoka kwenye app. Kupandisha kunaanza mara moja; kushusha kunaanza kipindi kipya cha bili."
+        },
+        "annual": {
+          "question": "Kuna tofauti gani kati ya kila mwezi na kila mwaka?",
+          "answer": "Kila mwaka = 10 × bei ya kila mwezi. Unaokoa miezi 2. Vitu vingine vyote ni sawa. Unaweza kuanza kila mwezi na kubadilisha kuwa kila mwaka wakati wowote."
+        },
+        "offline": {
+          "question": "Je, offline inafanya kazi kweli?",
+          "answer": "Ndio. Mauzo yanahifadhiwa kwenye kifaa na kusync unaporudi mtandaoni. Inapatikana kwenye mipango ya Business na Enterprise."
+        },
+        "trial": {
+          "question": "Kuna majaribio ya bure?",
+          "answer": "Ndio. Anza majaribio ya siku 14 na ufikiaji kamili, bila kadi ya mkopo."
+        },
+        "cancel": {
+          "question": "Vipi nikighairi?",
+          "answer": "Unabaki na ufikiaji hadi mwisho wa kipindi chako cha bili. Data yako ipo salama na unaweza kuisafirisha wakati wowote."
+        },
+        "training": {
+          "question": "Mnatoa mafunzo?",
+          "answer": "Ndio. Starter inapata miongozo iliyoandikwa. Business inajumuisha simu ya maandalizi. Enterprise inajumuisha mafunzo mahali na uongozaji wa maalum."
+        },
+        "payment": {
+          "question": "Nalipaje?",
+          "answer": "Mobile money, uhamisho wa benki, au kadi kupitia WhatsApp. Tunakukatia invoice, unalipa, tunaamsha. Rahisi."
+        },
+        "data": {
+          "question": "Nani anamiliki data yangu?",
+          "answer": "Wewe. Daima. Safirisha chochote wakati wowote. Hatuwahi kuuza au kushiriki data ya biashara yako."
+        }
+      }
+    }
+  },
+  "aboutPage": {
+    "metadata": {
+      "title": "Kuhusu — New Vision Inventory",
+      "description": "Kwa nini tulijenga mfumo bora wa stok kwa biashara za Tanzania."
+    },
+    "hero": {
+      "eyebrow": "Kuhusu sisi",
+      "title": "Imejengwa hapa. Kwa ajili ya hapa.",
+      "subtitle": "New Vision Inventory ilijengwa na watu wanaojua biashara ya Tanzania — kukatika kwa umeme, mtandao wa pole pole, mabadiliko ya wafanyakazi, sheria za kodi. Kila kipengele kipo kwa sababu biashara halisi ilihitaji."
+    },
+    "story": {
+      "title": "Kwa nini iko hapa",
+      "p1": "Programu nyingi za stok ziliandikwa kwa biashara mahali pengine. Shopify Canada. Square Marekani. Loyverse Urusi. Zinafanya kazi — mpaka upoteze signal. Au mhasibu wako anauliza export ya VAT. Au unataka kuhamisha stok kati ya matawi mawili Dar.",
+      "p2": "Tulianza New Vision Inventory kwa sababu biashara tunazojua — maduka, famasia, minyororo midogo — zilipiga kuta zilezile. Programu nzuri iliyokaribia kufaa. Haikuwa sahihi kamili. Daima njia ya mkato.",
+      "p3": "Kwa hivyo tulijenga tofauti. Ledger-kwanza, ili uweze kuamini namba. Offline-tayari, kwa sababu umeme na mtandao hazipo daima. Lugha mbili, kwa sababu wafanyakazi wako wanafanya kazi kwa Kiswahili. Bei ya TZS, lipa jinsi unavyolipa."
+    },
+    "values": {
+      "title": "Tunayosimamia",
+      "items": {
+        "trust": {
+          "title": "Uaminifu kupitia uwazi",
+          "body": "Kila mwendo wa stok, kila mabadiliko ya ruhusa, kila marejesho — yamerekodiwa, yanaweza kukaguliwa, hayawezi kufutwa."
+        },
+        "local": {
+          "title": "Imejengwa kwa ulipo",
+          "body": "Kiswahili na Kiingereza. TZS. Mobile money. Offline-tayari. Imejengwa kuzunguka jinsi biashara za Tanzania zinavyofanya kazi."
+        },
+        "calm": {
+          "title": "Tulivu kwa muundo",
+          "body": "Programu inapaswa kufanya siku yako iwe rahisi, sio yenye kelele. Mifumo yetu inakaa mbali na njia yako hadi unapohitaji."
+        },
+        "longTerm": {
+          "title": "Kwa muda mrefu",
+          "body": "Data yako ni yako. Akaunti yako haifungwi kwa kutolipa. Ukiondoka, unabeba kila kitu nawe."
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "metadata": {
+      "title": "Wasiliana — New Vision Inventory",
+      "description": "Maswali, demo, au msaada wa kuanza. Wasiliana kwa WhatsApp, simu, au barua pepe."
+    },
+    "hero": {
+      "eyebrow": "Wasiliana",
+      "title": "Wasiliana nasi.",
+      "subtitle": "Maswali kabla ya kujisajili. Msaada wa kuanza. Kitu hakifanyi kazi vizuri. Tunataka kusikia yote."
+    },
+    "form": {
+      "title": "Tuma ujumbe",
+      "subtitle": "Tutajibu ndani ya siku moja ya biashara.",
+      "name": "Jina lako",
+      "email": "Anwani ya barua pepe",
+      "business": "Jina la biashara",
+      "phone": "Namba ya simu",
+      "message": "Tunawezaje kusaidia?",
+      "submit": "Tuma ujumbe",
+      "messagePlaceholder": "Tuambie kidogo kuhusu biashara yako na unachotafuta.",
+      "success": "Asante! Tumepokea ujumbe wako, tutajibu ndani ya siku moja ya biashara.",
+      "error": "Kuna tatizo limetokea. Tafadhali jaribu tena au tuwasiliane kupitia WhatsApp.",
+      "sending": "Inatuma…"
+    },
+    "direct": {
+      "title": "Au wasiliana nasi moja kwa moja",
+      "whatsapp": "WhatsApp",
+      "call": "Piga simu",
+      "email": "Barua pepe",
+      "hours": "Jumatatu – Jumamosi, 8:00 – 18:00 EAT"
+    }
+  },
+  "privacyPage": {
+    "metadata": {
+      "title": "Sera ya Faragha — New Vision Inventory",
+      "description": "Jinsi tunavyokusanya, kuhifadhi, na kulinda data yako."
+    },
+    "title": "Sera ya Faragha",
+    "lastUpdated": "Imesasishwa mwisho: 14 Aprili 2026",
+    "intro": "Tunachukua faragha yako kwa uzito. Sera hii inaeleza tunachokusanya, kwa nini tunakusanya, na jinsi tunavyolinda.",
+    "sections": {
+      "collect": {
+        "title": "Tunachokusanya",
+        "body": "Tunakusanya taarifa unazotupa unapojisajili (jina la biashara, maelezo ya mawasiliano, akaunti za watumiaji) na data unayounda ukitumia mfumo (bidhaa, mauzo, mwendo wa stok, n.k.). Pia tunakusanya taarifa za kiufundi kama IP na aina ya kifaa kwa usalama."
+      },
+      "use": {
+        "title": "Jinsi tunavyotumia",
+        "body": "Tunatumia taarifa yako kuendesha huduma, kuweka akaunti yako salama, kutuma taarifa muhimu, na — kwa ruhusa yako tu — kuboresha bidhaa yetu. Hatutauzi data yako. Hatutatumii data ya biashara yako kufundisha AI za nje."
+      },
+      "share": {
+        "title": "Tunashiriki nani",
+        "body": "Tunashiriki data na watoa huduma wanaotusaidia (hosting, barua pepe, SMS, wasindikaji wa malipo). Watoa huduma hawa wamefungwa na mikataba. Hatushiriki data na watangazaji au madalali wa data."
+      },
+      "retention": {
+        "title": "Tunaihifadhi kwa muda gani",
+        "body": "Tunahifadhi data yako muda akaunti ikiwa hai. Ukifunga akaunti, tunabaki na rekodi kwa miaka 7 (kwa kodi na ukaguzi), kisha tunafuta."
+      },
+      "rights": {
+        "title": "Haki zako",
+        "body": "Unaweza kufikia, kusafirisha, kurekebisha, au kufuta data yako wakati wowote kutoka kwenye app. Kwa maombi ambayo hatuwezi kushughulikia kiotomatiki, tuma barua pepe privacy@newvisioninventory.com."
+      },
+      "security": {
+        "title": "Usalama",
+        "body": "Data imesimbwa katika usafiri na katika hifadhi. Backup zinafanyika kila siku. Ufikiaji ni mdogo kwa jukumu na unakaguliwa."
+      },
+      "changes": {
+        "title": "Mabadiliko ya sera hii",
+        "body": "Tutafanya mabadiliko makubwa, tutakujulisha kwa barua pepe na ndani ya app kabla ya mabadiliko kuanza."
+      }
+    }
+  },
+  "termsPage": {
+    "metadata": {
+      "title": "Masharti ya Huduma — New Vision Inventory",
+      "description": "Masharti ambayo unatumia New Vision Inventory."
+    },
+    "title": "Masharti ya Huduma",
+    "lastUpdated": "Imesasishwa mwisho: 14 Aprili 2026",
+    "intro": "Kwa kutumia New Vision Inventory (\"Huduma\") unakubali masharti haya. Ikiwa hukubali, tafadhali usitumie Huduma.",
+    "sections": {
+      "service": {
+        "title": "Huduma",
+        "body": "New Vision Inventory inatoa programu ya stok, point-of-sale, na ripoti kwa biashara za rejareja. Tunaweza kusasisha, kuboresha, au kubadilisha vipengele wakati wowote. Tutatoa taarifa kabla ya kuondoa kipengele unachotumia."
+      },
+      "accounts": {
+        "title": "Akaunti na ufikiaji",
+        "body": "Una jukumu la kuweka maelezo yako ya kuingia salama na kwa shughuli zote za akaunti yako. Usishiriki nywila yako. Ukishuku kuingia bila ruhusa, tuambie mara moja."
+      },
+      "payment": {
+        "title": "Usajili na malipo",
+        "body": "Huduma inauzwa kwa usajili, kila mwezi au kila mwaka. Ada zinaonyeshwa wakati wa usajili. Kutolipa kunaweza kusababisha kizuizi cha kipengele au kusimamishwa kwa akaunti."
+      },
+      "data": {
+        "title": "Data yako",
+        "body": "Data ya biashara yako ni yako. Hatudai umiliki. Unaweza kuisafirisha wakati wowote. Tunaweza kutumia data iliyounganishwa, iliyoondolewa utambulisho kuboresha Huduma."
+      },
+      "acceptableUse": {
+        "title": "Matumizi yanayokubalika",
+        "body": "Usitumie Huduma kwa jambo lolote haramu, usijaribu kuivunja au kuitumia vibaya, na usitume spam au kudhuru wengine."
+      },
+      "termination": {
+        "title": "Kumaliza akaunti yako",
+        "body": "Unaweza kughairi wakati wowote. Tunaweza kumaliza akaunti zinazovunja masharti haya. Unabaki na ufikiaji hadi mwisho wa kipindi cha kulipwa."
+      },
+      "liability": {
+        "title": "Uwajibikaji",
+        "body": "Huduma inatolewa \"kama ilivyo.\" Tunafanya kazi kwa bidii kuiweka ikiendelea, lakini hatuwezi kuahidi sifuri downtime. Uwajibikaji wetu umewekewa mipaka ya ada ulizolipa katika miezi 12 iliyopita."
+      },
+      "law": {
+        "title": "Sheria inayotawala",
+        "body": "Masharti haya yanatawaliwa na sheria za Jamhuri ya Muungano wa Tanzania. Migogoro inashughulikiwa na mahakama za Tanzania."
+      },
+      "contact": {
+        "title": "Wasiliana",
+        "body": "Maswali kuhusu masharti? Tuma barua pepe legal@newvisioninventory.com."
+      }
+    }
+  }
+}

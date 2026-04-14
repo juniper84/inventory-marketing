@@ -1,0 +1,742 @@
+{
+  "metadata": {
+    "title": "New Vision Inventory — Inventory, POS & Reports for Tanzanian businesses",
+    "description": "Smart inventory, fast POS, and powerful reports built for growing businesses in Tanzania. Offline-ready. Multi-branch. Audit-logged."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "signIn": "Sign in"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "startFreeTrial": "Start free trial",
+    "buyOnWhatsApp": "Buy on WhatsApp",
+    "talkToUs": "Talk to us",
+    "backHome": "Back to home",
+    "relatedFeatures": "Related features",
+    "whatYouGet": "What you get",
+    "howItWorks": "How it works",
+    "theProblem": "The problem",
+    "theSolution": "Our approach"
+  },
+  "langToggle": {
+    "english": "English",
+    "swahili": "Swahili",
+    "switchToSwahili": "Switch to Swahili",
+    "switchToEnglish": "Switch to English"
+  },
+  "hero": {
+    "eyebrow": "Built for Tanzanian businesses",
+    "headline": "Know your stock. Sell faster. Grow with confidence.",
+    "subhead": "New Vision Inventory brings inventory, POS, purchases, and reports into one clear system — simple on day one, powerful as you scale.",
+    "ctaTrial": "Start free trial",
+    "ctaWhatsapp": "Buy on WhatsApp",
+    "ctaQuestion": "Ask a question",
+    "stats": {
+      "allInOne": {
+        "value": "3 in 1",
+        "label": "Inventory + POS + Reports"
+      },
+      "offline": {
+        "value": "Offline ready",
+        "label": "Keep selling without signal"
+      },
+      "secure": {
+        "value": "Secure",
+        "label": "Roles + audit logs"
+      }
+    },
+    "status": {
+      "uptime": "Live uptime tracking",
+      "offline": "Offline ready",
+      "audit": "Audit-logged actions"
+    }
+  },
+  "heroPanel": {
+    "title": "Live inventory pulse",
+    "metrics": {
+      "lowStock": {
+        "label": "Low stock alerts",
+        "value": "Instant"
+      },
+      "dailySales": {
+        "label": "Daily sales snapshot",
+        "value": "Ready"
+      },
+      "branch": {
+        "label": "Branch performance",
+        "value": "Clear"
+      }
+    },
+    "note": "Track stock, sales, and purchases from one calm dashboard."
+  },
+  "pulseGrid": {
+    "title": "Live inventory",
+    "caption": "Every cell is a product. Gold means moving. Red means attention needed."
+  },
+  "highlights": {
+    "eyebrow": "Built for how you actually work",
+    "title": "Small details. Big differences.",
+    "items": {
+      "scan": {
+        "title": "Scan with your phone camera",
+        "body": "No extra hardware. Use the camera on any phone or tablet to scan barcodes at checkout or when receiving stock."
+      },
+      "batch": {
+        "title": "Batch & expiry tracking",
+        "body": "Built for pharmacies and grocers. Track every batch, see what's expiring soon, avoid losses before they happen."
+      },
+      "credit": {
+        "title": "Credit sales, handled cleanly",
+        "body": "Let customers pay later. The system tracks who owes what, due dates, and partial payments — so no one forgets."
+      },
+      "print": {
+        "title": "Print your own barcodes",
+        "body": "Selling unlabeled goods or bulk items? Generate and print barcode labels for anything on your shelf."
+      },
+      "swahili": {
+        "title": "Swahili-first, throughout",
+        "body": "Not just the homepage. Every screen your cashiers see works in Swahili or English — toggle per user."
+      }
+    }
+  },
+  "showcase": {
+    "dashboard": {
+      "eyebrow": "Dashboard",
+      "title": "See your business, at a glance",
+      "body": "Today's revenue, low-stock alerts, top products — all in one calm view. No digging through menus. No wondering what happened yesterday."
+    },
+    "reports": {
+      "eyebrow": "Reports",
+      "title": "Know exactly what's working",
+      "body": "Net profit, gross margin, sales trend, P&L breakdown — ready when you need them. No spreadsheets. No guesswork."
+    },
+    "pos": {
+      "eyebrow": "Point of Sale",
+      "title": "Sell fast, from any device",
+      "body": "Ring up a sale in seconds. Scan a barcode, pick a customer, take cash or mobile money. Same system on desktop, tablet, and phone.",
+      "desktopAlt": "Point-of-Sale screen with items in cart and payment methods ready",
+      "mobileAlt": "Mobile Point-of-Sale view — cart and payment on a phone",
+      "tabletAlt": "Tablet Point-of-Sale view — products grid with cart"
+    },
+    "dashboardAlt": "New Vision Inventory dashboard showing today's revenue, low-stock alerts, and top products",
+    "reportsAlt": "Reports view showing net profit, P&L by day, and sales trend charts"
+  },
+  "features": {
+    "title": "Everything you need, without the overwhelm",
+    "subtitle": "Start with the essentials. Unlock advanced controls as your business grows.",
+    "items": {
+      "stock": {
+        "title": "Smart stock control",
+        "body": "Adjustments, counts, and low-stock alerts keep shelves healthy."
+      },
+      "pos": {
+        "title": "Fast POS sales",
+        "body": "Drafts, receipts, refunds, and returns all in one flow."
+      },
+      "purchases": {
+        "title": "Purchases + receiving",
+        "body": "Track suppliers, purchase orders, and receiving with confidence."
+      },
+      "reports": {
+        "title": "Powerful reports",
+        "body": "Sales, VAT, P&L, staff, and customer insights — ready when you need them."
+      },
+      "offline": {
+        "title": "Offline mode",
+        "body": "Keep selling even with unstable internet. Sync when you're back online."
+      },
+      "secure": {
+        "title": "Secure & accountable",
+        "body": "Role-based access plus audit logs for every critical action."
+      }
+    }
+  },
+  "emphasis": {
+    "title": "Made for busy teams",
+    "body": "Whether you run a shop, a pharmacy, or a growing retail chain, your data stays organized across branches and users. You always know what's in stock, what sold, and what needs attention.",
+    "list": {
+      "branches": "Branch-level visibility and controls",
+      "barcodes": "Barcode lookup and printing",
+      "customers": "Customer and supplier tracking",
+      "exports": "Exports for compliance and audits"
+    }
+  },
+  "pricing": {
+    "title": "Simple pricing",
+    "subtitle": "Pick a plan that matches your scale. Upgrade anytime.",
+    "badge": "Most popular",
+    "billingMonthly": "Monthly",
+    "billingAnnual": "Annual",
+    "annualSaveNote": "Pay annually and get 2 months free",
+    "seePricing": "See full pricing",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "saveAnnual": "Save 2 months",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "priceMonthly": "40,000 TZS",
+        "priceAnnual": "400,000 TZS",
+        "bullets": {
+          "branches": "1 branch, 5 users",
+          "products": "5,000 products",
+          "transactions": "15,000 monthly transactions",
+          "core": "Core inventory + POS + reports"
+        },
+        "cta": "Buy on WhatsApp",
+        "ctaMessageMonthly": "Hello, I would like to purchase the STARTER plan (monthly).",
+        "ctaMessageAnnual": "Hello, I would like to purchase the STARTER plan (annual)."
+      },
+      "business": {
+        "name": "Business",
+        "priceMonthly": "75,000 TZS",
+        "priceAnnual": "750,000 TZS",
+        "bullets": {
+          "branches": "Up to 5 branches, 15 users",
+          "products": "30,000 products",
+          "transactions": "40,000 monthly transactions",
+          "offline": "Offline mode + reminders"
+        },
+        "cta": "Buy on WhatsApp",
+        "ctaMessageMonthly": "Hello, I would like to purchase the BUSINESS plan (monthly).",
+        "ctaMessageAnnual": "Hello, I would like to purchase the BUSINESS plan (annual)."
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "priceMonthly": "150,000 TZS",
+        "priceAnnual": "1,500,000 TZS",
+        "bullets": {
+          "scale": "Unlimited scale",
+          "offline": "Full offline + unlimited devices",
+          "controls": "Advanced controls + priority support",
+          "guidance": "Custom guidance for large teams"
+        },
+        "cta": "Buy on WhatsApp",
+        "ctaMessageMonthly": "Hello, I would like to purchase the ENTERPRISE plan (monthly).",
+        "ctaMessageAnnual": "Hello, I would like to purchase the ENTERPRISE plan (annual)."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to see it in action?",
+    "body": "Start your trial in minutes. No technical setup required.",
+    "button": "Start free trial"
+  },
+  "contact": {
+    "title": "Talk to us",
+    "subtitle": "Questions, demos, or onboarding help — reach us fast.",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© 2026 New Vision Inventory",
+    "tagline": "Built for modern retail operations",
+    "blurb": "Inventory, POS, and reports in one system. Built for Tanzanian businesses. Works online and offline.",
+    "productHeading": "Product",
+    "companyHeading": "Company",
+    "legalHeading": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "featuresPage": {
+    "metadata": {
+      "title": "Features — New Vision Inventory",
+      "description": "Every tool a growing Tanzanian business needs — stock control, POS, offline mode, reports, multi-branch, and security."
+    },
+    "hero": {
+      "eyebrow": "Features",
+      "title": "Built for the way your business actually works.",
+      "subtitle": "Not another bloated retail suite. A clear, calm system that covers every critical part of running a shop — without overwhelming your staff."
+    },
+    "stock": {
+      "shortTitle": "Stock & ledger",
+      "title": "Smart stock control with a full audit ledger",
+      "pitch": "Every movement is recorded. Every shelf stays stocked. Know what you have, where it is, and how it got there."
+    },
+    "pos": {
+      "shortTitle": "Point of Sale",
+      "title": "Fast POS that never slows your line",
+      "pitch": "Scan, add, take payment, print receipt. Under 10 seconds per sale on any device."
+    },
+    "offline": {
+      "shortTitle": "Offline mode",
+      "title": "Keep selling when the internet doesn't",
+      "pitch": "Power out? Internet cut? Keep ringing up sales. When you're back online, everything syncs automatically."
+    },
+    "reports": {
+      "shortTitle": "Reports",
+      "title": "Clear reports, ready when you are",
+      "pitch": "Sales, VAT, P&L, staff performance, customer insight. One click. No spreadsheets."
+    },
+    "branches": {
+      "shortTitle": "Multi-branch",
+      "title": "One system. Every branch. One view.",
+      "pitch": "Multiple locations, one login. Move stock between branches, compare their performance, keep controls tight."
+    },
+    "security": {
+      "shortTitle": "Security & audit",
+      "title": "Accountable by default",
+      "pitch": "Role-based permissions. Every important action logged with who, what, when, and before/after. Support your compliance and your sanity."
+    },
+    "cta": {
+      "title": "See every feature up close",
+      "body": "Start a free trial and explore the system with your own products.",
+      "button": "Start free trial"
+    }
+  },
+  "featureDeepDive": {
+    "threeSteps": "Three simple steps.",
+    "everythingIncluded": "Everything included."
+  },
+  "featurePage": {
+    "stockLedger": {
+      "metadata": {
+        "title": "Stock ledger & control — New Vision Inventory",
+        "description": "Ledger-based stock with immutable audit trail. Low-stock alerts, reorder points, stock counts, and variance tracking."
+      },
+      "hero": {
+        "eyebrow": "Stock & ledger",
+        "title": "Every movement recorded. Every shelf stocked.",
+        "subtitle": "A ledger-first inventory system. Nothing is silently overwritten. Every purchase, sale, adjustment, and transfer leaves a trail you can trust."
+      },
+      "problem": {
+        "title": "The problem with most stock systems",
+        "body": "Most systems give you a number and hope you trust it. When it's wrong — and it will be wrong — you have no way to find out why. Staff adjust. Numbers drift. Trust dies."
+      },
+      "solution": {
+        "title": "How our ledger works",
+        "body": "Every change to stock is a new, immutable entry in the ledger. You don't edit history; you add to it. If the count ever looks wrong, you can walk backwards through every movement and see exactly what happened."
+      },
+      "steps": {
+        "one": {
+          "title": "Record every movement",
+          "body": "Purchases in, sales out, adjustments, transfers, returns — every change is logged with who did it and why."
+        },
+        "two": {
+          "title": "See live stock anywhere",
+          "body": "Real-time snapshot per branch per product. Drill into any item to see its full history."
+        },
+        "three": {
+          "title": "Stay ahead with alerts",
+          "body": "Set reorder points. Get flagged the moment stock drops below the minimum — before a customer asks for it."
+        }
+      },
+      "benefits": {
+        "one": "Immutable movement ledger",
+        "two": "Low-stock alerts and reorder points per branch",
+        "three": "Scheduled stock counts with variance reports",
+        "four": "Barcode scanning and printing",
+        "five": "Batch and expiry tracking",
+        "six": "Branch-level stock visibility"
+      }
+    },
+    "pos": {
+      "metadata": {
+        "title": "Point of Sale — New Vision Inventory",
+        "description": "A POS that stays out of the way. Fast checkout, drafts, refunds, receipts — on desktop, tablet, and phone."
+      },
+      "hero": {
+        "eyebrow": "Point of Sale",
+        "title": "Checkout built to stay out of the way.",
+        "subtitle": "A fast, clean POS that handles sales, refunds, drafts, and receipts without slowing your queue. Works the same on desktop, tablet, and phone."
+      },
+      "problem": {
+        "title": "Slow POS = lost sales",
+        "body": "When your checkout takes longer than the coffee shop next door, customers notice. Every extra tap, every hidden menu, every confused cashier costs you a real sale."
+      },
+      "solution": {
+        "title": "Made for speed",
+        "body": "Keyboard shortcuts, barcode scan, instant customer lookup, split payments, quick drafts. Built to move as fast as a busy cashier on a Saturday afternoon."
+      },
+      "steps": {
+        "one": {
+          "title": "Scan or search",
+          "body": "Scan a barcode or type the first letters of a product name. Add to cart in one tap."
+        },
+        "two": {
+          "title": "Take payment",
+          "body": "Cash, mobile money, card, bank transfer, or split. Calculates change automatically."
+        },
+        "three": {
+          "title": "Print the receipt",
+          "body": "Print, WhatsApp, or skip. Receipt stored automatically against the sale for future lookup."
+        }
+      },
+      "benefits": {
+        "one": "Barcode scanning and keyboard shortcuts",
+        "two": "Cash, mobile money, card, bank transfer, split",
+        "three": "Park and resume drafts",
+        "four": "Refunds and returns with reason tracking",
+        "five": "Customer lookup and credit sales",
+        "six": "Shift open/close with cash variance"
+      }
+    },
+    "offline": {
+      "metadata": {
+        "title": "Offline mode — New Vision Inventory",
+        "description": "Keep selling with no internet. Sales queue locally and sync automatically when connection returns."
+      },
+      "hero": {
+        "eyebrow": "Offline mode",
+        "title": "Internet out. Sales in.",
+        "subtitle": "Power cuts, ISP issues, dead signal in the back room — none of it stops your business. The POS keeps working. Sync happens the moment connection returns."
+      },
+      "problem": {
+        "title": "Connectivity isn't guaranteed",
+        "body": "Tanzania's internet is improving but still unreliable. One hour without signal shouldn't mean an hour of lost sales and angry customers. But on most cloud POS systems, that's exactly what it means."
+      },
+      "solution": {
+        "title": "Built local-first",
+        "body": "Sales are saved on the device first, then to the server. If the server isn't reachable, nothing breaks. When you reconnect, the queue syncs automatically — no buttons to press, no manual fix-up."
+      },
+      "steps": {
+        "one": {
+          "title": "Lose connection",
+          "body": "System detects offline. A calm banner appears. The POS keeps working exactly the same way."
+        },
+        "two": {
+          "title": "Keep selling",
+          "body": "Every sale saves to the device and queues for sync. Stock counts update locally."
+        },
+        "three": {
+          "title": "Come back online",
+          "body": "Queue syncs automatically in the background. You see a confirmation when everything's through."
+        }
+      },
+      "benefits": {
+        "one": "Sales queue securely on-device",
+        "two": "Automatic sync on reconnection",
+        "three": "Per-device offline history",
+        "four": "Encrypted offline storage",
+        "five": "Conflict review if two devices edit the same record",
+        "six": "Available on Business and Enterprise plans"
+      }
+    },
+    "reports": {
+      "metadata": {
+        "title": "Reports — New Vision Inventory",
+        "description": "Sales, VAT, P&L, staff, and customer insights. Ready when you need them. No spreadsheets required."
+      },
+      "hero": {
+        "eyebrow": "Reports",
+        "title": "The answers are already there.",
+        "subtitle": "Sales totals, VAT tracked on every sale, profit & loss, staff performance, customer insights. All pre-built, all one click away."
+      },
+      "problem": {
+        "title": "Guessing is expensive",
+        "body": "Most businesses run on hunch. They feel like this month was slow, or this product is doing well. Without real numbers, decisions get made on vibes — and vibes are wrong about 40% of the time."
+      },
+      "solution": {
+        "title": "Every answer, pre-built",
+        "body": "Instead of giving you a blank spreadsheet and hoping, we give you the reports that matter: today vs yesterday, this month vs last, top products, top customers, cost vs revenue, staff performance, and a running VAT total from your sales so year-end is no surprise."
+      },
+      "steps": {
+        "one": {
+          "title": "Pick a date range",
+          "body": "Today, yesterday, week, month, or custom. All reports respect your timezone and currency."
+        },
+        "two": {
+          "title": "Filter by branch or staff",
+          "body": "Drill into one branch or compare them. See how individual cashiers are performing."
+        },
+        "three": {
+          "title": "Export when you need to",
+          "body": "CSV, Excel, PDF. For accountants, audits, or your own records."
+        }
+      },
+      "benefits": {
+        "one": "Sales by day, week, month, custom range",
+        "two": "Profit & loss breakdown",
+        "three": "Top products and top customers",
+        "four": "Staff performance and shift reports",
+        "five": "VAT tracked on every sale for easy year-end totals",
+        "six": "Branch comparison reports"
+      }
+    },
+    "multiBranch": {
+      "metadata": {
+        "title": "Multi-branch — New Vision Inventory",
+        "description": "Run multiple locations from one system. Transfer stock, compare branches, keep controls tight."
+      },
+      "hero": {
+        "eyebrow": "Multi-branch",
+        "title": "One system. Every branch. One view.",
+        "subtitle": "Whether you have two shops or twenty, everything lives in one place. Move stock between branches, see how each is performing, keep branch managers accountable."
+      },
+      "problem": {
+        "title": "Running branches separately is chaos",
+        "body": "Separate systems per location means separate spreadsheets, reconciled by hand at month-end. Stock counts disagree. Pricing drifts. You're the only person who knows what's really going on — and you don't really know either."
+      },
+      "solution": {
+        "title": "One source of truth",
+        "body": "All branches, one database, one login. You see everything. Each branch manager sees only their branch. Transfer stock in a click. Compare performance in a click. Problems get spotted early."
+      },
+      "steps": {
+        "one": {
+          "title": "Set up each branch",
+          "body": "Branches share your catalog and pricing, but keep their own stock counts and sales."
+        },
+        "two": {
+          "title": "Transfer stock easily",
+          "body": "Move products from one branch to another with a receiving step and full audit trail."
+        },
+        "three": {
+          "title": "Compare performance",
+          "body": "Side-by-side branch reports. Catch which location needs attention before month-end."
+        }
+      },
+      "benefits": {
+        "one": "Shared catalog and pricing across branches",
+        "two": "Separate stock and sales per branch",
+        "three": "Stock transfers with full audit",
+        "four": "Per-branch user permissions",
+        "five": "Branch comparison reports",
+        "six": "Consolidated dashboard for the owner"
+      }
+    }
+  },
+  "pricingPage": {
+    "metadata": {
+      "title": "Pricing — New Vision Inventory",
+      "description": "Simple monthly or annual pricing. Pay for a year and get 2 months free. Three tiers to match your scale."
+    },
+    "hero": {
+      "eyebrow": "Pricing",
+      "title": "Simple pricing. Pay monthly, or save 2 months with annual.",
+      "subtitle": "Three tiers. Clear limits. Upgrade anytime. No contracts, no hidden fees, no per-user surprises."
+    },
+    "comparison": {
+      "title": "Compare plans side by side",
+      "subtitle": "Everything included in each tier.",
+      "rows": {
+        "branches": "Branches",
+        "users": "Users",
+        "products": "Products",
+        "transactions": "Monthly transactions",
+        "pos": "Point of Sale",
+        "stock": "Stock ledger + low-stock alerts",
+        "reports": "Reports",
+        "offline": "Offline mode",
+        "multiBranchTransfers": "Branch-to-branch stock transfers",
+        "audit": "Audit logs",
+        "roles": "Role-based permissions",
+        "support": "Support"
+      },
+      "values": {
+        "starterBranches": "1",
+        "businessBranches": "Up to 5",
+        "enterpriseBranches": "Unlimited",
+        "starterUsers": "5",
+        "businessUsers": "15",
+        "enterpriseUsers": "Unlimited",
+        "starterProducts": "5,000",
+        "businessProducts": "30,000",
+        "enterpriseProducts": "Unlimited",
+        "starterTx": "15,000",
+        "businessTx": "40,000",
+        "enterpriseTx": "Unlimited",
+        "supportStandard": "Email",
+        "supportBusiness": "Email + chat",
+        "supportEnterprise": "Priority"
+      }
+    },
+    "faq": {
+      "title": "Frequently asked",
+      "items": {
+        "change": {
+          "question": "Can I change plans later?",
+          "answer": "Yes. You can upgrade or downgrade any time from the app. Upgrades take effect immediately; downgrades apply at the next billing cycle."
+        },
+        "annual": {
+          "question": "What's the difference between monthly and annual?",
+          "answer": "Annual = 10 × the monthly price. You save 2 months. Everything else is identical. You can start monthly and switch to annual any time."
+        },
+        "offline": {
+          "question": "Does offline mode really work?",
+          "answer": "Yes. Sales save on the device and sync when you're back online. Available on Business and Enterprise plans."
+        },
+        "trial": {
+          "question": "Is there a free trial?",
+          "answer": "Yes. Start a 14-day trial with full access, no credit card required."
+        },
+        "cancel": {
+          "question": "What if I cancel?",
+          "answer": "You keep access until the end of your current billing period. Your data stays safe and you can export it any time."
+        },
+        "training": {
+          "question": "Do you offer training?",
+          "answer": "Yes. Starter gets written guides. Business includes a setup call. Enterprise includes on-site training and dedicated onboarding."
+        },
+        "payment": {
+          "question": "How do I pay?",
+          "answer": "Mobile money, bank transfer, or card via WhatsApp. We invoice you, you pay, we activate. Simple."
+        },
+        "data": {
+          "question": "Who owns my data?",
+          "answer": "You do. Always. Export anything any time. We never sell or share your business data."
+        }
+      }
+    }
+  },
+  "aboutPage": {
+    "metadata": {
+      "title": "About — New Vision Inventory",
+      "description": "Why we built a better inventory system for Tanzanian businesses."
+    },
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Built here. For here.",
+      "subtitle": "New Vision Inventory was built by people who know Tanzanian retail — the power cuts, the spotty internet, the staff turnover, the tax rules. Every feature exists because a real business needed it."
+    },
+    "story": {
+      "title": "Why this exists",
+      "p1": "Most inventory software was written for businesses somewhere else. Shopify in Canada. Square in the US. Loyverse in Russia. They work fine — until you lose signal. Or your accountant asks for a VAT export. Or you want to transfer stock between two branches in Dar.",
+      "p2": "We started New Vision Inventory because the businesses we know — shops, pharmacies, small chains — kept hitting the same walls. Great software that almost fit. Never quite right. Always a workaround.",
+      "p3": "So we built it differently. Ledger-first, so you can trust the numbers. Offline-ready, because power and internet aren't always here. Bilingual, because your staff work in Swahili. Priced in TZS, paid how you pay."
+    },
+    "values": {
+      "title": "What we stand for",
+      "items": {
+        "trust": {
+          "title": "Trust through transparency",
+          "body": "Every stock movement, every permission change, every refund — recorded, auditable, undeletable. If you can't explain what happened, nothing is trustworthy."
+        },
+        "local": {
+          "title": "Built for where you are",
+          "body": "Swahili and English. TZS. Mobile money. Offline-ready. Built around how Tanzanian businesses actually operate, not adapted from somewhere else."
+        },
+        "calm": {
+          "title": "Calm by design",
+          "body": "Software should make your day easier, not louder. Our interfaces stay out of your way until you need them."
+        },
+        "longTerm": {
+          "title": "In it for the long run",
+          "body": "Your data is yours. Your account doesn't get locked out for non-payment. If you leave, you take everything with you. We earn your business every month."
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "metadata": {
+      "title": "Contact — New Vision Inventory",
+      "description": "Questions, demos, or onboarding help. Reach us by WhatsApp, phone, or email."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Talk to us.",
+      "subtitle": "Questions before signing up. Help getting started. Something not working right. We want to hear it all."
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "We'll get back within one business day.",
+      "name": "Your name",
+      "email": "Email address",
+      "business": "Business name",
+      "phone": "Phone number",
+      "message": "How can we help?",
+      "submit": "Send message",
+      "messagePlaceholder": "Tell us a bit about your business and what you're looking for.",
+      "success": "Thanks! We've got your message and will reply within one business day.",
+      "error": "Something went wrong. Please try again or reach us via WhatsApp.",
+      "sending": "Sending…"
+    },
+    "direct": {
+      "title": "Or reach us directly",
+      "whatsapp": "WhatsApp",
+      "call": "Call",
+      "email": "Email",
+      "hours": "Mon – Sat, 8:00 – 18:00 EAT"
+    }
+  },
+  "privacyPage": {
+    "metadata": {
+      "title": "Privacy Policy — New Vision Inventory",
+      "description": "How we collect, store, and protect your data."
+    },
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 14 April 2026",
+    "intro": "We take your privacy seriously. This policy explains what we collect, why we collect it, and how we protect it.",
+    "sections": {
+      "collect": {
+        "title": "What we collect",
+        "body": "We collect the information you give us when you sign up (business name, contact details, user accounts) and the data you create while using the system (products, sales, stock movements, etc.). We also collect basic technical information like IP address and device type to keep your account secure."
+      },
+      "use": {
+        "title": "How we use it",
+        "body": "We use your information to run the service, keep your account secure, send you important service notifications, and — only with your permission — improve our product. We never sell your data. We never use your business data to train external AI models."
+      },
+      "share": {
+        "title": "Who we share it with",
+        "body": "We share data with service providers who help us run the system (hosting, email, SMS, payment processors). These providers are bound by contracts limiting what they can do with your data. We never share your data with advertisers or data brokers."
+      },
+      "retention": {
+        "title": "How long we keep it",
+        "body": "We keep your data as long as your account is active. If you close your account, we retain a limited record (for tax and audit compliance) for 7 years, then delete everything."
+      },
+      "rights": {
+        "title": "Your rights",
+        "body": "You can access, export, correct, or delete your data at any time from the app. For questions or requests we can't handle automatically, email privacy@newvisioninventory.com."
+      },
+      "security": {
+        "title": "Security",
+        "body": "Data is encrypted in transit and at rest. Backups run daily. Access is restricted by role and audited. We follow industry best practices for security."
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "body": "If we make significant changes we'll notify you by email and in-app before the changes take effect."
+      }
+    }
+  },
+  "termsPage": {
+    "metadata": {
+      "title": "Terms of Service — New Vision Inventory",
+      "description": "The terms under which you use New Vision Inventory."
+    },
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: 14 April 2026",
+    "intro": "By using New Vision Inventory (\"the Service\") you agree to these terms. If you don't agree, please don't use the Service.",
+    "sections": {
+      "service": {
+        "title": "The Service",
+        "body": "New Vision Inventory provides cloud-based inventory, point-of-sale, and reporting software for retail businesses. We may update, improve, or modify features at any time. We'll give reasonable notice before removing any feature you actively depend on."
+      },
+      "accounts": {
+        "title": "Accounts and access",
+        "body": "You're responsible for keeping your login details secure and for all activity on your account. Don't share your password. If you suspect unauthorized access, tell us immediately."
+      },
+      "payment": {
+        "title": "Subscription and payment",
+        "body": "The Service is sold by subscription, monthly or annual. Fees are shown at sign-up and in your account. Failure to pay may result in feature restriction or account suspension. We'll always try to reach you before restricting access."
+      },
+      "data": {
+        "title": "Your data",
+        "body": "Your business data is yours. We don't claim ownership of it. You can export it at any time. We may use aggregated, anonymized data to improve the Service."
+      },
+      "acceptableUse": {
+        "title": "Acceptable use",
+        "body": "Don't use the Service for anything illegal, don't try to break or exploit it, and don't use it to send spam or harm others. We may suspend accounts that violate these rules."
+      },
+      "termination": {
+        "title": "Ending your account",
+        "body": "You can cancel any time from your account settings. We may terminate accounts that breach these terms, with notice where possible. You keep access to your data until the end of your paid period and can export at any time."
+      },
+      "liability": {
+        "title": "Liability",
+        "body": "The Service is provided \"as-is.\" We work hard to keep it running and reliable, but we can't promise zero downtime or zero bugs. Our liability is limited to the fees you paid in the past 12 months."
+      },
+      "law": {
+        "title": "Governing law",
+        "body": "These terms are governed by the laws of the United Republic of Tanzania. Disputes are subject to the jurisdiction of Tanzanian courts."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions about these terms? Email legal@newvisioninventory.com."
+      }
+    }
+  }
+}
