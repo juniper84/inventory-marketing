@@ -111,7 +111,38 @@ export function CreditIcon({ className, size = 40 }: IconProps) {
   );
 }
 
-export function PrintBarcodeIcon({ className, size = 40 }: IconProps) {
+export function PriceListIcon({ className, size = 40 }: IconProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 40 40"
+      fill="none"
+      className={className}
+      aria-hidden
+    >
+      <rect
+        x="7"
+        y="6"
+        width="26"
+        height="28"
+        rx="3"
+        stroke="currentColor"
+        strokeWidth="1.5"
+      />
+      <path
+        d="M12 13h9M12 19h14M12 25h11"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+      <circle cx="27" cy="13" r="2.2" fill="currentColor" />
+      <circle cx="29" cy="25" r="2.2" fill="currentColor" opacity="0.5" />
+    </svg>
+  );
+}
+
+export function PrintBarcodeIconUnused({ className, size = 40 }: IconProps) {
   return (
     <svg
       width={size}

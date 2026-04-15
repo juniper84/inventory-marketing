@@ -8,7 +8,11 @@
     "pricing": "Bei",
     "about": "Kuhusu",
     "contact": "Wasiliana",
-    "signIn": "Ingia"
+    "signIn": "Ingia",
+    "exploreFeatures": "Chunguza vipengele",
+    "seeAllFeatures": "Ona vipengele vyote",
+    "megaSubtitle": "Kila kona ya biashara yako, mfumo mmoja. Chagua kipengele chochote uone jinsi kinavyofanya kazi.",
+    "ctaStartTrial": "Anza majaribio bure"
   },
   "common": {
     "learnMore": "Soma zaidi",
@@ -29,9 +33,10 @@
     "switchToEnglish": "Badili kuwa Kiingereza"
   },
   "hero": {
-    "eyebrow": "Imejengwa kwa biashara za Tanzania",
-    "headline": "Jua stok zako. Uza haraka. Kua kwa ujasiri.",
-    "subhead": "New Vision Inventory inaunganisha stok, POS, manunuzi, na ripoti katika mfumo mmoja ulio wazi — rahisi kuanza, wenye nguvu kadri unavyokua.",
+    "eyebrow": "Biashara ya Tanzania, imeundwa upya",
+    "headline": "Jua kila rafu. Kila mauzo. Kila shilingi.",
+    "subhead": "POS, stok, na ripoti zilizojengwa kwa biashara za Tanzania zisizoweza kupoteza mwelekeo. Inafanya kazi umeme ukikata. Inafanya kazi kwa Kiswahili. Kwenye kifaa chochote ulicho nacho.",
+    "painLine": "Kama umewahi kujiuliza pesa za jana zimeenda wapi, hii ni kwa ajili yako.",
     "ctaTrial": "Anza majaribio bure",
     "ctaWhatsapp": "Nunua kwa WhatsApp",
     "ctaQuestion": "Uliza swali",
@@ -77,6 +82,63 @@
     "title": "Stok moja kwa moja",
     "caption": "Kila kisanduku ni bidhaa. Dhahabu ina maana inasonga. Nyekundu ina maana tahadhari."
   },
+  "audiences": {
+    "eyebrow": "Imejengwa kwa aina yako ya biashara",
+    "title": "Mfumo mmoja. Njia nyingi za kutumia.",
+    "subtitle": "Kutoka duka dogo hadi msambazaji wa kitaifa, mfumo unajipanga kulingana na jinsi unavyouza kwa uhalisia.",
+    "items": {
+      "retail": {
+        "title": "Maduka ya rejareja",
+        "body": "Kaunta moja au kumi. Skani ya barcode, checkout haraka, namba wazi mwisho wa siku."
+      },
+      "wholesale": {
+        "title": "Jumla & usambazaji",
+        "body": "Orodha za bei kwa mteja, masharti ya mkopo, maagizo makubwa, uhamisho wa tawi kwa tawi. Jua nani anakudai na deni linalipwa lini."
+      },
+      "pharmacy": {
+        "title": "Famasia & vyakula",
+        "body": "Namba za batch na tarehe za kumalizika zinafuatiliwa kwa kila bidhaa. Pata bidhaa zinazokaribia kumalizika kabla hazijakugharimu."
+      },
+      "multiBranch": {
+        "title": "Mitandao ya matawi",
+        "body": "Kila tawi kwenye dashibodi moja. Hamisha stok, linganisha utendaji, pata matawi yasiyofanya vizuri kabla ya mwisho wa mwezi."
+      }
+    }
+  },
+  "stopStart": {
+    "eyebrow": "Sababu halisi watu wanabadili",
+    "title": "Acha kufanya haya. Anza kufanya yale.",
+    "columns": {
+      "stop": "Acha",
+      "start": "Anza"
+    },
+    "rows": {
+      "one": {
+        "stop": "Acha kuandika mauzo kwenye daftari wakati wa kufunga.",
+        "start": "Anza kupata jumla ya siku moja kwa moja, kiotomatiki."
+      },
+      "two": {
+        "stop": "Acha kubashiri bidhaa zipi zinaisha.",
+        "start": "Anza kupata tahadhari mara tu stok inaposhuka."
+      },
+      "three": {
+        "stop": "Acha kufuatilia wafanyakazi kwa waliyouza kwenye shift yao.",
+        "start": "Anza kuona hasa kila kashia alichouza, na lini."
+      },
+      "four": {
+        "stop": "Acha kupoteza mwelekeo wa deni la mteja kwenye karatasi.",
+        "start": "Anza kufuatilia mauzo ya mkopo, tarehe za kulipa, na malipo ya sehemu kwa utaratibu."
+      },
+      "five": {
+        "stop": "Acha kuwaambia wateja wa jumla \"Nitakujibu baadaye kuhusu bei.\"",
+        "start": "Anza kutumia bei yao kiotomatiki wakati wa checkout."
+      },
+      "six": {
+        "stop": "Acha kuwa na wasiwasi mtandao unapokatika.",
+        "start": "Anza kuuza wakati wa kukatika kwa umeme na signal mbaya bila kupoteza chochote."
+      }
+    }
+  },
   "highlights": {
     "eyebrow": "Imejengwa kwa jinsi unavyofanya kazi",
     "title": "Maelezo madogo. Tofauti kubwa.",
@@ -93,9 +155,9 @@
         "title": "Mauzo ya mkopo, yanadhibitiwa vizuri",
         "body": "Ruhusu wateja walipe baadaye. Mfumo unafuatilia nani anadaiwa, tarehe za kulipa, na malipo ya sehemu — hakuna anayesahau."
       },
-      "print": {
-        "title": "Chapisha barcode zako mwenyewe",
-        "body": "Unauza bidhaa zisizo na lebo au za jumla? Tengeneza na uchapishe lebo za barcode kwa kitu chochote."
+      "priceLists": {
+        "title": "Orodha za bei kwa mteja",
+        "body": "Bei ya rejareja kwa wanaopita. Bei ya jumla kwa wateja wa kawaida. Bei maalum kwa msambazaji mmoja mkubwa. Zote zimewekwa mara moja, zinatumika kiotomatiki wakati wa checkout."
       },
       "swahili": {
         "title": "Kiswahili kwanza, kila mahali",
@@ -117,7 +179,7 @@
     "pos": {
       "eyebrow": "Point of Sale",
       "title": "Uza haraka, kutoka kifaa chochote",
-      "body": "Kamilisha mauzo kwa sekunde. Skani barcode, chagua mteja, pokea pesa taslimu au mobile money. Mfumo uleule kwenye kompyuta, kibao, na simu.",
+      "body": "Kamilisha mauzo kwa sekunde. Skani barcode, chagua mteja, rekodi njia yoyote ya malipo. Mfumo uleule kwenye kompyuta, kibao, na simu.",
       "desktopAlt": "Skrini ya POS ikionyesha bidhaa kwenye gari na njia za malipo",
       "mobileAlt": "Mwonekano wa POS kwenye simu — gari na malipo",
       "tabletAlt": "Mwonekano wa POS kwenye kibao — gridi ya bidhaa na gari"
@@ -157,7 +219,7 @@
   },
   "emphasis": {
     "title": "Imeundwa kwa timu zenye shughuli nyingi",
-    "body": "Iwe una duka, famasia, au mtandao wa matawi unaokua, taarifa zako zinabaki zikiwa zimepangwa kwa matawi na watumiaji. Unajua stok, mauzo, na yanayohitaji hatua.",
+    "body": "Iwe una duka dogo, famasia, msambazaji wa jumla, au mtandao wa matawi unaokua, taarifa zako zinabaki zikiwa zimepangwa kwa matawi na watumiaji. Unajua stok, mauzo, na yanayohitaji hatua.",
     "list": {
       "branches": "Uangalizi na udhibiti kwa kila tawi",
       "barcodes": "Barcode lookup na uchapishaji",
@@ -179,13 +241,21 @@
     "tiers": {
       "starter": {
         "name": "Starter",
+        "tagline": "Kwa duka moja linaloanza kupangwa.",
         "priceMonthly": "40,000 TZS",
         "priceAnnual": "400,000 TZS",
         "bullets": {
-          "branches": "Tawi 1, watumiaji 5",
-          "products": "Bidhaa 5,000",
-          "transactions": "Miamala 15,000 kwa mwezi",
-          "core": "Stok + POS + ripoti"
+          "branches": "Tawi 1, watumiaji hadi 5",
+          "products": "Hadi bidhaa 5,000",
+          "transactions": "Miamala 15,000 / mwezi",
+          "pos": "POS + stok + ripoti kamili",
+          "audit": "Kumbukumbu ya kila mabadiliko"
+        },
+        "missing": {
+          "title": "Haijajumuishwa:",
+          "offline": "Offline",
+          "multiBranch": "Uhamisho wa stok kati ya matawi",
+          "priceLists": "Orodha za bei kwa mteja (jumla)"
         },
         "cta": "Nunua kwa WhatsApp",
         "ctaMessageMonthly": "Habari, ningependa kununua mpango wa STARTER (kwa mwezi).",
@@ -193,13 +263,23 @@
       },
       "business": {
         "name": "Business",
+        "tagline": "Kwa maduka ya matawi mengi, jumla, na minyororo inayokua.",
         "priceMonthly": "75,000 TZS",
         "priceAnnual": "750,000 TZS",
         "bullets": {
+          "everything": "Kila kitu cha Starter, na:",
           "branches": "Hadi matawi 5, watumiaji 15",
-          "products": "Bidhaa 30,000",
-          "transactions": "Miamala 40,000 kwa mwezi",
-          "offline": "Offline + vikumbusho"
+          "products": "Hadi bidhaa 30,000",
+          "transactions": "Miamala 40,000 / mwezi",
+          "offline": "Offline + sync",
+          "transfers": "Uhamisho wa stok kati ya matawi",
+          "priceLists": "Orodha za bei kwa mteja (bei ya jumla)",
+          "reminders": "Vikumbusho vya mkopo & stok ndogo"
+        },
+        "missing": {
+          "title": "Haijajumuishwa:",
+          "unlimited": "Watumiaji, matawi, bidhaa bila kikomo",
+          "priority": "Msaada wa kipaumbele + mafunzo mahali"
         },
         "cta": "Nunua kwa WhatsApp",
         "ctaMessageMonthly": "Habari, ningependa kununua mpango wa BUSINESS (kwa mwezi).",
@@ -207,13 +287,21 @@
       },
       "enterprise": {
         "name": "Enterprise",
+        "tagline": "Kwa wasambazaji walioanzishwa na minyororo ya kitaifa.",
         "priceMonthly": "150,000 TZS",
         "priceAnnual": "1,500,000 TZS",
         "bullets": {
-          "scale": "Kiwango kisicho na kikomo",
-          "offline": "Offline kamili + vifaa bila kikomo",
-          "controls": "Udhibiti wa juu + msaada wa kipaumbele",
-          "guidance": "Mwongozo maalum kwa timu kubwa"
+          "everything": "Kila kitu cha Business, na:",
+          "unlimited": "Matawi, watumiaji, bidhaa, miamala bila kikomo",
+          "offline": "Offline kamili kwa vifaa bila kikomo",
+          "advanced": "Ruhusa za juu & sheria za idhini",
+          "priority": "Msaada wa kipaumbele wenye SLA ya siku 1",
+          "training": "Mafunzo mahali & uongozaji wa maalum",
+          "custom": "Mwongozo maalum kwa timu kubwa"
+        },
+        "missing": {
+          "title": "Huna chochote kinachokosa.",
+          "nothing": "Kila kipengele, kila kikomo kimeinuliwa."
         },
         "cta": "Nunua kwa WhatsApp",
         "ctaMessageMonthly": "Habari, ningependa kununua mpango wa ENTERPRISE (kwa mwezi).",
@@ -251,7 +339,7 @@
     "hero": {
       "eyebrow": "Vipengele",
       "title": "Imejengwa kwa jinsi biashara yako inavyofanya kazi.",
-      "subtitle": "Sio mfumo mwingine uliopakia sana. Mfumo wazi, tulivu unaoshughulikia kila sehemu muhimu ya kuendesha duka bila kuwachanganya wafanyakazi wako."
+      "subtitle": "Sio mfumo mwingine uliopakia sana. Mfumo wazi, tulivu unaoshughulikia kila sehemu muhimu ya kuendesha biashara yako — iwe duka moja au msambazaji wa matawi mengi — bila kuwachanganya wafanyakazi wako."
     },
     "stock": {
       "shortTitle": "Stok & ledger",
@@ -360,7 +448,7 @@
         },
         "two": {
           "title": "Pokea malipo",
-          "body": "Pesa taslimu, mobile money, kadi, uhamisho wa benki, au gawa. Inahesabu chenji kiotomatiki."
+          "body": "Rekodi njia yoyote ya malipo — pesa taslimu, kadi, uhamisho wa benki, au gawa. Inahesabu chenji kiotomatiki."
         },
         "three": {
           "title": "Chapisha risiti",
@@ -369,7 +457,7 @@
       },
       "benefits": {
         "one": "Skani ya barcode na njia fupi za kibodi",
-        "two": "Pesa taslimu, mobile money, kadi, uhamisho wa benki, gawa",
+        "two": "Rekodi njia yoyote ya malipo — pesa taslimu, kadi, uhamisho wa benki, gawa",
         "three": "Weka na endelea na drafti",
         "four": "Marejesho na returns na ufuatiliaji wa sababu",
         "five": "Utafutaji wa mteja na mauzo ya mkopo",
@@ -574,7 +662,7 @@
         },
         "payment": {
           "question": "Nalipaje?",
-          "answer": "Mobile money, uhamisho wa benki, au kadi kupitia WhatsApp. Tunakukatia invoice, unalipa, tunaamsha. Rahisi."
+          "answer": "Tunakutumia invoice kupitia WhatsApp. Unalipa kwa njia yoyote inayokufaa — uhamisho wa benki, kadi, au njia nyingine yoyote unayotumia. Malipo yakiingia tunaamsha akaunti yako. Rahisi."
         },
         "data": {
           "question": "Nani anamiliki data yangu?",
@@ -591,12 +679,15 @@
     "hero": {
       "eyebrow": "Kuhusu sisi",
       "title": "Imejengwa hapa. Kwa ajili ya hapa.",
-      "subtitle": "New Vision Inventory ilijengwa na watu wanaojua biashara ya Tanzania — kukatika kwa umeme, mtandao wa pole pole, mabadiliko ya wafanyakazi, sheria za kodi. Kila kipengele kipo kwa sababu biashara halisi ilihitaji."
+      "subtitle": "New Vision Inventory ilijengwa na watu wanaojua biashara ya Tanzania — maduka, wasambazaji wa jumla, famasia, mitandao ya matawi. Kukatika kwa umeme. Mtandao wa pole pole. Mabadiliko ya wafanyakazi. Sheria za kodi. Kila kipengele kipo kwa sababu biashara halisi ilihitaji."
     },
+    "pullQuote": "Biashara Tanzania haisimami kwa sababu ya mtandao mbaya. Wala programu unayoendesha nayo haipaswi kusimama.",
+    "manifestoHeading": "Tunayosimamia",
+    "signature": "— Timu ya New Vision, Dar es Salaam",
     "story": {
       "title": "Kwa nini iko hapa",
       "p1": "Programu nyingi za stok ziliandikwa kwa biashara mahali pengine. Shopify Canada. Square Marekani. Loyverse Urusi. Zinafanya kazi — mpaka upoteze signal. Au mhasibu wako anauliza export ya VAT. Au unataka kuhamisha stok kati ya matawi mawili Dar.",
-      "p2": "Tulianza New Vision Inventory kwa sababu biashara tunazojua — maduka, famasia, minyororo midogo — zilipiga kuta zilezile. Programu nzuri iliyokaribia kufaa. Haikuwa sahihi kamili. Daima njia ya mkato.",
+      "p2": "Tulianza New Vision Inventory kwa sababu biashara tunazojua — maduka madogo, famasia, wasambazaji wa jumla, mitandao ya matawi inayokua — zilipiga kuta zilezile. Programu nzuri iliyokaribia kufaa. Haikuwa sahihi kamili. Daima njia ya mkato.",
       "p3": "Kwa hivyo tulijenga tofauti. Ledger-kwanza, ili uweze kuamini namba. Offline-tayari, kwa sababu umeme na mtandao hazipo daima. Lugha mbili, kwa sababu wafanyakazi wako wanafanya kazi kwa Kiswahili. Bei ya TZS, lipa jinsi unavyolipa."
     },
     "values": {
@@ -608,7 +699,7 @@
         },
         "local": {
           "title": "Imejengwa kwa ulipo",
-          "body": "Kiswahili na Kiingereza. TZS. Mobile money. Offline-tayari. Imejengwa kuzunguka jinsi biashara za Tanzania zinavyofanya kazi."
+          "body": "Kiswahili na Kiingereza. TZS. Offline-tayari. Imejengwa kuzunguka jinsi biashara za Tanzania zinavyofanya kazi."
         },
         "calm": {
           "title": "Tulivu kwa muundo",
@@ -628,8 +719,10 @@
     },
     "hero": {
       "eyebrow": "Wasiliana",
-      "title": "Wasiliana nasi.",
-      "subtitle": "Maswali kabla ya kujisajili. Msaada wa kuanza. Kitu hakifanyi kazi vizuri. Tunataka kusikia yote."
+      "title": "Ongea na mtu. Haraka.",
+      "subtitle": "Maswali kabla ya kujisajili. Msaada wa kuanza. Kitu hakifanyi kazi vizuri. Tunajibu kwa Kiingereza au Kiswahili, kwa kawaida ndani ya siku moja ya biashara — mara nyingi haraka zaidi.",
+      "phoneLabel": "Unapendelea kupiga simu tu?",
+      "phoneHoursLine": "Jumatatu – Jumamosi, 8:00 – 18:00 EAT"
     },
     "form": {
       "title": "Tuma ujumbe",
@@ -703,7 +796,7 @@
     "sections": {
       "service": {
         "title": "Huduma",
-        "body": "New Vision Inventory inatoa programu ya stok, point-of-sale, na ripoti kwa biashara za rejareja. Tunaweza kusasisha, kuboresha, au kubadilisha vipengele wakati wowote. Tutatoa taarifa kabla ya kuondoa kipengele unachotumia."
+        "body": "New Vision Inventory inatoa programu ya stok, point-of-sale, na ripoti kwa biashara za rejareja, jumla, na zinazohusiana. Tunaweza kusasisha, kuboresha, au kubadilisha vipengele wakati wowote. Tutatoa taarifa kabla ya kuondoa kipengele unachotumia."
       },
       "accounts": {
         "title": "Akaunti na ufikiaji",

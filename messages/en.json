@@ -8,7 +8,11 @@
     "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
-    "signIn": "Sign in"
+    "signIn": "Sign in",
+    "exploreFeatures": "Explore features",
+    "seeAllFeatures": "See all features",
+    "megaSubtitle": "Every corner of your business, one system. Pick any feature to see how it works.",
+    "ctaStartTrial": "Start free trial"
   },
   "common": {
     "learnMore": "Learn more",
@@ -29,9 +33,10 @@
     "switchToEnglish": "Switch to English"
   },
   "hero": {
-    "eyebrow": "Built for Tanzanian businesses",
-    "headline": "Know your stock. Sell faster. Grow with confidence.",
-    "subhead": "New Vision Inventory brings inventory, POS, purchases, and reports into one clear system — simple on day one, powerful as you scale.",
+    "eyebrow": "Tanzanian commerce, redesigned",
+    "headline": "Know every shelf. Every sale. Every shilling.",
+    "subhead": "A POS, inventory and reports system built for Tanzanian businesses who can't afford to lose track. Works when the power cuts. Works in Swahili. Works on any device you already own.",
+    "painLine": "If you've ever wondered where yesterday's takings went, this is for you.",
     "ctaTrial": "Start free trial",
     "ctaWhatsapp": "Buy on WhatsApp",
     "ctaQuestion": "Ask a question",
@@ -77,6 +82,63 @@
     "title": "Live inventory",
     "caption": "Every cell is a product. Gold means moving. Red means attention needed."
   },
+  "audiences": {
+    "eyebrow": "Built for your kind of business",
+    "title": "One system. Many ways to use it.",
+    "subtitle": "From a single-till duka to a national distributor, the system adapts to how you actually sell.",
+    "items": {
+      "retail": {
+        "title": "Retail shops",
+        "body": "One counter or ten. Barcode scan, fast checkout, clear daily numbers at the end of the day."
+      },
+      "wholesale": {
+        "title": "Wholesale & distribution",
+        "body": "Customer price lists, credit terms, bulk orders, branch-to-branch transfers. Know who owes you and when it's due."
+      },
+      "pharmacy": {
+        "title": "Pharmacies & groceries",
+        "body": "Batch numbers and expiry dates tracked per item. Catch things about to expire before they cost you money."
+      },
+      "multiBranch": {
+        "title": "Multi-branch chains",
+        "body": "Every branch on one dashboard. Transfer stock, compare performance, catch underperforming branches before month-end."
+      }
+    }
+  },
+  "stopStart": {
+    "eyebrow": "The real reason people switch",
+    "title": "Stop doing these. Start doing those.",
+    "columns": {
+      "stop": "Stop",
+      "start": "Start"
+    },
+    "rows": {
+      "one": {
+        "stop": "Stop writing sales in a notebook at closing time.",
+        "start": "Start getting a live daily total, automatically."
+      },
+      "two": {
+        "stop": "Stop guessing which products are running out.",
+        "start": "Start getting alerts the moment stock goes low."
+      },
+      "three": {
+        "stop": "Stop chasing staff for what they sold on their shift.",
+        "start": "Start seeing exactly what each cashier rang up, and when."
+      },
+      "four": {
+        "stop": "Stop losing track of customer debt in loose papers.",
+        "start": "Start tracking credit sales, due dates, and partial payments cleanly."
+      },
+      "five": {
+        "stop": "Stop telling wholesale customers \"I'll get back to you on the price.\"",
+        "start": "Start applying their pricing automatically at checkout."
+      },
+      "six": {
+        "stop": "Stop worrying when the internet cuts out.",
+        "start": "Start selling through power cuts and bad signal without missing a thing."
+      }
+    }
+  },
   "highlights": {
     "eyebrow": "Built for how you actually work",
     "title": "Small details. Big differences.",
@@ -93,9 +155,9 @@
         "title": "Credit sales, handled cleanly",
         "body": "Let customers pay later. The system tracks who owes what, due dates, and partial payments — so no one forgets."
       },
-      "print": {
-        "title": "Print your own barcodes",
-        "body": "Selling unlabeled goods or bulk items? Generate and print barcode labels for anything on your shelf."
+      "priceLists": {
+        "title": "Price lists per customer",
+        "body": "Retail price for walk-ins. Wholesale price for regulars. Special price for one big distributor. All set up once, applied automatically at checkout."
       },
       "swahili": {
         "title": "Swahili-first, throughout",
@@ -117,7 +179,7 @@
     "pos": {
       "eyebrow": "Point of Sale",
       "title": "Sell fast, from any device",
-      "body": "Ring up a sale in seconds. Scan a barcode, pick a customer, take cash or mobile money. Same system on desktop, tablet, and phone.",
+      "body": "Ring up a sale in seconds. Scan a barcode, pick a customer, record any payment method. Same system on desktop, tablet, and phone.",
       "desktopAlt": "Point-of-Sale screen with items in cart and payment methods ready",
       "mobileAlt": "Mobile Point-of-Sale view — cart and payment on a phone",
       "tabletAlt": "Tablet Point-of-Sale view — products grid with cart"
@@ -157,7 +219,7 @@
   },
   "emphasis": {
     "title": "Made for busy teams",
-    "body": "Whether you run a shop, a pharmacy, or a growing retail chain, your data stays organized across branches and users. You always know what's in stock, what sold, and what needs attention.",
+    "body": "Whether you run a corner shop, a pharmacy, a wholesale distributor, or a growing multi-branch chain, your data stays organized across branches and users. You always know what's in stock, what sold, and what needs attention.",
     "list": {
       "branches": "Branch-level visibility and controls",
       "barcodes": "Barcode lookup and printing",
@@ -179,13 +241,21 @@
     "tiers": {
       "starter": {
         "name": "Starter",
+        "tagline": "For single-location shops just getting organised.",
         "priceMonthly": "40,000 TZS",
         "priceAnnual": "400,000 TZS",
         "bullets": {
-          "branches": "1 branch, 5 users",
-          "products": "5,000 products",
-          "transactions": "15,000 monthly transactions",
-          "core": "Core inventory + POS + reports"
+          "branches": "1 branch, up to 5 users",
+          "products": "Up to 5,000 products",
+          "transactions": "15,000 transactions / month",
+          "pos": "Full POS + inventory + reports",
+          "audit": "Audit log of every change"
+        },
+        "missing": {
+          "title": "Not included:",
+          "offline": "Offline mode",
+          "multiBranch": "Multi-branch transfers",
+          "priceLists": "Customer price lists (wholesale)"
         },
         "cta": "Buy on WhatsApp",
         "ctaMessageMonthly": "Hello, I would like to purchase the STARTER plan (monthly).",
@@ -193,13 +263,23 @@
       },
       "business": {
         "name": "Business",
+        "tagline": "For multi-branch retail, wholesale, and growing chains.",
         "priceMonthly": "75,000 TZS",
         "priceAnnual": "750,000 TZS",
         "bullets": {
+          "everything": "Everything in Starter, plus:",
           "branches": "Up to 5 branches, 15 users",
-          "products": "30,000 products",
-          "transactions": "40,000 monthly transactions",
-          "offline": "Offline mode + reminders"
+          "products": "Up to 30,000 products",
+          "transactions": "40,000 transactions / month",
+          "offline": "Offline mode + sync",
+          "transfers": "Branch-to-branch stock transfers",
+          "priceLists": "Customer price lists (wholesale pricing)",
+          "reminders": "Credit & low-stock reminders"
+        },
+        "missing": {
+          "title": "Not included:",
+          "unlimited": "Unlimited users, branches, products",
+          "priority": "Priority support + on-site training"
         },
         "cta": "Buy on WhatsApp",
         "ctaMessageMonthly": "Hello, I would like to purchase the BUSINESS plan (monthly).",
@@ -207,13 +287,21 @@
       },
       "enterprise": {
         "name": "Enterprise",
+        "tagline": "For established distributors and nationwide chains.",
         "priceMonthly": "150,000 TZS",
         "priceAnnual": "1,500,000 TZS",
         "bullets": {
-          "scale": "Unlimited scale",
-          "offline": "Full offline + unlimited devices",
-          "controls": "Advanced controls + priority support",
-          "guidance": "Custom guidance for large teams"
+          "everything": "Everything in Business, plus:",
+          "unlimited": "Unlimited branches, users, products, transactions",
+          "offline": "Full offline on unlimited devices",
+          "advanced": "Advanced roles & approval rules",
+          "priority": "Priority support with 1-day SLA",
+          "training": "On-site training & dedicated onboarding",
+          "custom": "Custom guidance for large teams"
+        },
+        "missing": {
+          "title": "You're not missing anything.",
+          "nothing": "Every feature, every limit raised."
         },
         "cta": "Buy on WhatsApp",
         "ctaMessageMonthly": "Hello, I would like to purchase the ENTERPRISE plan (monthly).",
@@ -235,7 +323,7 @@
   },
   "footer": {
     "copyright": "© 2026 New Vision Inventory",
-    "tagline": "Built for modern retail operations",
+    "tagline": "Built for modern commerce operations",
     "blurb": "Inventory, POS, and reports in one system. Built for Tanzanian businesses. Works online and offline.",
     "productHeading": "Product",
     "companyHeading": "Company",
@@ -251,7 +339,7 @@
     "hero": {
       "eyebrow": "Features",
       "title": "Built for the way your business actually works.",
-      "subtitle": "Not another bloated retail suite. A clear, calm system that covers every critical part of running a shop — without overwhelming your staff."
+      "subtitle": "Not another bloated business suite. A clear, calm system that covers every critical part of running your business — whether you're a single shop or a multi-branch distributor — without overwhelming your staff."
     },
     "stock": {
       "shortTitle": "Stock & ledger",
@@ -360,7 +448,7 @@
         },
         "two": {
           "title": "Take payment",
-          "body": "Cash, mobile money, card, bank transfer, or split. Calculates change automatically."
+          "body": "Record any payment method — cash, card, bank transfer, or a split. Calculates change automatically."
         },
         "three": {
           "title": "Print the receipt",
@@ -369,7 +457,7 @@
       },
       "benefits": {
         "one": "Barcode scanning and keyboard shortcuts",
-        "two": "Cash, mobile money, card, bank transfer, split",
+        "two": "Record any payment method — cash, card, bank transfer, split",
         "three": "Park and resume drafts",
         "four": "Refunds and returns with reason tracking",
         "five": "Customer lookup and credit sales",
@@ -574,7 +662,7 @@
         },
         "payment": {
           "question": "How do I pay?",
-          "answer": "Mobile money, bank transfer, or card via WhatsApp. We invoice you, you pay, we activate. Simple."
+          "answer": "We invoice you via WhatsApp. You pay however works best for you — bank transfer, card, or whichever channel you use. Once the payment clears we activate your account. Simple."
         },
         "data": {
           "question": "Who owns my data?",
@@ -591,12 +679,15 @@
     "hero": {
       "eyebrow": "About us",
       "title": "Built here. For here.",
-      "subtitle": "New Vision Inventory was built by people who know Tanzanian retail — the power cuts, the spotty internet, the staff turnover, the tax rules. Every feature exists because a real business needed it."
+      "subtitle": "New Vision Inventory was built by people who know Tanzanian commerce — retail shops, wholesalers, pharmacies, multi-branch chains. The power cuts. The spotty internet. The staff turnover. The tax rules. Every feature exists because a real business needed it."
     },
+    "pullQuote": "Business in Tanzania doesn't pause for bad internet. Neither should the software you run it on.",
+    "manifestoHeading": "What we stand for",
+    "signature": "— The New Vision team, Dar es Salaam",
     "story": {
       "title": "Why this exists",
       "p1": "Most inventory software was written for businesses somewhere else. Shopify in Canada. Square in the US. Loyverse in Russia. They work fine — until you lose signal. Or your accountant asks for a VAT export. Or you want to transfer stock between two branches in Dar.",
-      "p2": "We started New Vision Inventory because the businesses we know — shops, pharmacies, small chains — kept hitting the same walls. Great software that almost fit. Never quite right. Always a workaround.",
+      "p2": "We started New Vision Inventory because the businesses we know — corner shops, pharmacies, wholesalers, growing multi-branch chains — kept hitting the same walls. Great software that almost fit. Never quite right. Always a workaround.",
       "p3": "So we built it differently. Ledger-first, so you can trust the numbers. Offline-ready, because power and internet aren't always here. Bilingual, because your staff work in Swahili. Priced in TZS, paid how you pay."
     },
     "values": {
@@ -608,7 +699,7 @@
         },
         "local": {
           "title": "Built for where you are",
-          "body": "Swahili and English. TZS. Mobile money. Offline-ready. Built around how Tanzanian businesses actually operate, not adapted from somewhere else."
+          "body": "Swahili and English. TZS. Offline-ready. Built around how Tanzanian businesses actually operate, not adapted from somewhere else."
         },
         "calm": {
           "title": "Calm by design",
@@ -628,8 +719,10 @@
     },
     "hero": {
       "eyebrow": "Contact",
-      "title": "Talk to us.",
-      "subtitle": "Questions before signing up. Help getting started. Something not working right. We want to hear it all."
+      "title": "Talk to a human. Fast.",
+      "subtitle": "Questions before signing up. Help getting started. Something not working right. We answer in English or Swahili, usually within one business day — often much faster.",
+      "phoneLabel": "Prefer to just call?",
+      "phoneHoursLine": "Mon – Sat, 8:00 – 18:00 EAT"
     },
     "form": {
       "title": "Send us a message",
@@ -703,7 +796,7 @@
     "sections": {
       "service": {
         "title": "The Service",
-        "body": "New Vision Inventory provides cloud-based inventory, point-of-sale, and reporting software for retail businesses. We may update, improve, or modify features at any time. We'll give reasonable notice before removing any feature you actively depend on."
+        "body": "New Vision Inventory provides cloud-based inventory, point-of-sale, and reporting software for retail, wholesale, and related businesses. We may update, improve, or modify features at any time. We'll give reasonable notice before removing any feature you actively depend on."
       },
       "accounts": {
         "title": "Accounts and access",

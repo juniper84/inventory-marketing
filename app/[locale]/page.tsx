@@ -2,8 +2,11 @@ import { setRequestLocale } from "next-intl/server";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
+import { SectionBand } from "@/components/SectionBand";
 import { Hero } from "@/components/home/Hero";
 import { Highlights } from "@/components/home/Highlights";
+import { Audiences } from "@/components/home/Audiences";
+import { StopStart } from "@/components/home/StopStart";
 import { ShowcaseDashboard } from "@/components/home/ShowcaseDashboard";
 import { FeatureGrid } from "@/components/home/FeatureGrid";
 import { ShowcaseReports } from "@/components/home/ShowcaseReports";
@@ -54,42 +57,9 @@ export default async function HomePage({
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web, Android, iOS",
     offers: [
-      {
-        "@type": "Offer",
-        name: "Starter",
-        price: "40000",
-        priceCurrency: "TZS",
-        priceSpecification: {
-          "@type": "UnitPriceSpecification",
-          price: "40000",
-          priceCurrency: "TZS",
-          unitText: "MONTH",
-        },
-      },
-      {
-        "@type": "Offer",
-        name: "Business",
-        price: "75000",
-        priceCurrency: "TZS",
-        priceSpecification: {
-          "@type": "UnitPriceSpecification",
-          price: "75000",
-          priceCurrency: "TZS",
-          unitText: "MONTH",
-        },
-      },
-      {
-        "@type": "Offer",
-        name: "Enterprise",
-        price: "150000",
-        priceCurrency: "TZS",
-        priceSpecification: {
-          "@type": "UnitPriceSpecification",
-          price: "150000",
-          priceCurrency: "TZS",
-          unitText: "MONTH",
-        },
-      },
+      { "@type": "Offer", name: "Starter", price: "40000", priceCurrency: "TZS" },
+      { "@type": "Offer", name: "Business", price: "75000", priceCurrency: "TZS" },
+      { "@type": "Offer", name: "Enterprise", price: "150000", priceCurrency: "TZS" },
     ],
   };
 
@@ -99,15 +69,50 @@ export default async function HomePage({
       <Nav locale={locale} />
       <main>
         <Hero locale={locale} />
-        <Highlights />
-        <ShowcaseDashboard />
-        <FeatureGrid />
-        <ShowcaseReports />
-        <Emphasis />
-        <ShowcasePOS />
-        <PricingTeaser />
-        <CtaBanner locale={locale} />
-        <Contact />
+
+        <SectionBand tone="deep" divider="both">
+          <Highlights />
+        </SectionBand>
+
+        <SectionBand tone="base">
+          <ShowcaseDashboard />
+        </SectionBand>
+
+        <SectionBand tone="warm" divider="top">
+          <Audiences />
+        </SectionBand>
+
+        <SectionBand tone="lift" divider="top">
+          <FeatureGrid />
+        </SectionBand>
+
+        <SectionBand tone="deep" divider="both">
+          <ShowcaseReports />
+        </SectionBand>
+
+        <SectionBand tone="base">
+          <StopStart />
+        </SectionBand>
+
+        <SectionBand tone="warm">
+          <Emphasis />
+        </SectionBand>
+
+        <SectionBand tone="deep" divider="both">
+          <ShowcasePOS />
+        </SectionBand>
+
+        <SectionBand tone="base">
+          <PricingTeaser />
+        </SectionBand>
+
+        <SectionBand tone="warm">
+          <CtaBanner locale={locale} />
+        </SectionBand>
+
+        <SectionBand tone="deep" divider="top">
+          <Contact />
+        </SectionBand>
       </main>
       <Footer />
     </>

@@ -40,7 +40,7 @@ export function Hero({ locale }: { locale: string }) {
           </p>
 
           <div
-            className="reveal flex flex-wrap gap-3 mb-7"
+            className="reveal flex flex-wrap gap-3 mb-5"
             style={{ ["--delay" as never]: "0.28s" }}
           >
             <ButtonLink
@@ -67,6 +67,13 @@ export function Hero({ locale }: { locale: string }) {
               {t("ctaQuestion")}
             </ButtonLink>
           </div>
+
+          <p
+            className="reveal italic text-sm text-muted/90 border-l-2 border-gold/40 pl-4 mb-7 max-w-lg"
+            style={{ ["--delay" as never]: "0.32s" }}
+          >
+            {t("painLine")}
+          </p>
 
           <div
             className="reveal flex flex-wrap gap-2 mb-6"

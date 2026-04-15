@@ -5,15 +5,15 @@ import {
   ScanPhoneIcon,
   BatchExpiryIcon,
   CreditIcon,
-  PrintBarcodeIcon,
+  PriceListIcon,
   SwahiliIcon,
 } from "@/components/icons/HighlightIcons";
 
 const ITEMS = [
   { key: "scan", Icon: ScanPhoneIcon },
-  { key: "batch", Icon: BatchExpiryIcon },
+  { key: "priceLists", Icon: PriceListIcon },
   { key: "credit", Icon: CreditIcon },
-  { key: "print", Icon: PrintBarcodeIcon },
+  { key: "batch", Icon: BatchExpiryIcon },
   { key: "swahili", Icon: SwahiliIcon },
 ] as const;
 

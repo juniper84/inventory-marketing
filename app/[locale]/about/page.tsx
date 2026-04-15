@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { PageShell } from "@/components/PageShell";
-import { PageHero } from "@/components/ui/PageHero";
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { appUrl } from "@/lib/app-url";
@@ -13,10 +12,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({
-    locale,
-    namespace: "aboutPage.metadata",
-  });
+  const t = await getTranslations({ locale, namespace: "aboutPage.metadata" });
   return {
     title: t("title"),
     description: t("description"),
@@ -32,34 +28,81 @@ const VALUE_KEYS = ["trust", "local", "calm", "longTerm"] as const;
 function Hero() {
   const t = useTranslations("aboutPage.hero");
   return (
-    <PageHero
-      eyebrow={t("eyebrow")}
-      title={t("title")}
-      subtitle={t("subtitle")}
-    />
+    <Container as="section" className="pt-16 pb-10 md:pt-24 md:pb-16">
+      <div className="max-w-4xl">
+        <p
+          className="reveal text-xs uppercase tracking-[0.28em] text-gold mb-6"
+          style={{ ["--delay" as never]: "0.05s" }}
+        >
+          {t("eyebrow")}
+        </p>
+        <h1
+          className="reveal font-display text-5xl md:text-7xl leading-[0.98] tracking-tight"
+          style={{ ["--delay" as never]: "0.12s" }}
+        >
+          {t("title")}
+        </h1>
+      </div>
+    </Container>
+  );
+}
+
+function PullQuote() {
+  const t = useTranslations("aboutPage");
+  return (
+    <Container as="section" className="py-16 md:py-20">
+      <div className="mx-auto max-w-4xl text-center">
+        <span
+          className="font-display text-7xl md:text-8xl text-gold/40 leading-none block mb-2"
+          aria-hidden
+        >
+          &ldquo;
+        </span>
+        <blockquote
+          className="reveal font-display text-2xl md:text-4xl leading-snug text-ink/95 tracking-tight"
+          style={{ ["--delay" as never]: "0.1s" }}
+        >
+          {t("pullQuote")}
+        </blockquote>
+        <div
+          className="reveal mt-8 mx-auto h-px w-16 bg-gold/50"
+          style={{ ["--delay" as never]: "0.25s" }}
+          aria-hidden
+        />
+      </div>
+    </Container>
   );
 }
 
 function Story() {
-  const t = useTranslations("aboutPage.story");
+  const t = useTranslations("aboutPage");
+  const h = useTranslations("aboutPage.hero");
+  const s = useTranslations("aboutPage.story");
   return (
-    <Container as="section" className="py-16">
-      <div className="max-w-3xl">
-        <h2
-          className="reveal font-display text-3xl md:text-4xl leading-tight mb-8"
+    <Container as="section" className="py-12 md:py-16">
+      <div className="grid gap-10 md:grid-cols-[1fr_2.2fr]">
+        <div
+          className="reveal md:sticky md:top-24 md:self-start"
           style={{ ["--delay" as never]: "0.1s" }}
         >
-          {t("title")}
-        </h2>
-        <div className="space-y-6 text-muted leading-relaxed text-lg">
-          <p className="reveal" style={{ ["--delay" as never]: "0.15s" }}>
-            {t("p1")}
+          <p className="text-xs uppercase tracking-[0.22em] text-gold mb-2">
+            {s("title")}
           </p>
-          <p className="reveal" style={{ ["--delay" as never]: "0.25s" }}>
-            {t("p2")}
+          <p className="font-display text-lg text-ink/90 leading-snug">
+            {h("subtitle")}
           </p>
-          <p className="reveal" style={{ ["--delay" as never]: "0.35s" }}>
-            {t("p3")}
+        </div>
+        <div
+          className="reveal space-y-6 text-lg leading-relaxed text-muted"
+          style={{ ["--delay" as never]: "0.2s" }}
+        >
+          <p className="first-letter:font-display first-letter:text-gold first-letter:text-6xl first-letter:float-left first-letter:mr-3 first-letter:leading-[0.9]">
+            {s("p1")}
+          </p>
+          <p>{s("p2")}</p>
+          <p>{s("p3")}</p>
+          <p className="pt-4 text-sm italic text-gold/80 font-display tracking-wide">
+            {t("signature")}
           </p>
         </div>
       </div>
@@ -67,32 +110,47 @@ function Story() {
   );
 }
 
-function Values() {
-  const t = useTranslations("aboutPage.values");
+function Manifesto() {
+  const t = useTranslations("aboutPage");
+  const v = useTranslations("aboutPage.values");
   return (
     <Container as="section" className="py-16">
-      <h2
-        className="reveal font-display text-3xl md:text-4xl leading-tight mb-10 max-w-2xl"
+      <p
+        className="reveal text-xs uppercase tracking-[0.22em] text-gold mb-4"
         style={{ ["--delay" as never]: "0.1s" }}
       >
-        {t("title")}
+        {t("manifestoHeading")}
+      </p>
+      <h2
+        className="reveal font-display text-3xl md:text-5xl leading-tight mb-10 max-w-3xl"
+        style={{ ["--delay" as never]: "0.15s" }}
+      >
+        {v("title")}
       </h2>
-      <div className="grid gap-5 md:grid-cols-2">
+      <ol className="grid gap-0">
         {VALUE_KEYS.map((key, i) => (
-          <article
+          <li
             key={key}
-            className="reveal rounded-3xl border border-gold/20 bg-card/70 p-8 shadow-elevated"
-            style={{ ["--delay" as never]: `${0.1 + i * 0.1}s` }}
+            className="reveal grid grid-cols-[48px_1fr] gap-5 py-7 border-t border-white/5 first:border-t-0 md:grid-cols-[80px_1fr]"
+            style={{ ["--delay" as never]: `${0.1 + i * 0.08}s` }}
           >
-            <h3 className="font-display text-xl text-gold mb-3">
-              {t(`items.${key}.title`)}
-            </h3>
-            <p className="text-muted leading-relaxed">
-              {t(`items.${key}.body`)}
-            </p>
-          </article>
+            <span
+              className="font-display text-gold text-xl md:text-2xl"
+              aria-hidden
+            >
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <div>
+              <h3 className="font-display text-xl md:text-2xl mb-2 leading-tight">
+                {v(`items.${key}.title`)}
+              </h3>
+              <p className="text-muted leading-relaxed max-w-2xl">
+                {v(`items.${key}.body`)}
+              </p>
+            </div>
+          </li>
         ))}
-      </div>
+      </ol>
     </Container>
   );
 }
@@ -126,8 +184,13 @@ export default async function AboutPage({
   return (
     <PageShell locale={locale}>
       <Hero />
+      <div className="bg-[radial-gradient(ellipse_at_top,rgba(215,176,91,0.08),transparent_70%)]">
+        <PullQuote />
+      </div>
       <Story />
-      <Values />
+      <div className="bg-[#050403] border-y border-white/5">
+        <Manifesto />
+      </div>
       <CTABanner locale={locale} />
     </PageShell>
   );
